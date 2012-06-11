@@ -1,0 +1,80 @@
+# translation of kded_ktp_approver.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Joëlle Cornavin <jcorn@free.fr>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kded_ktp_approver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-02 03:25+0200\n"
+"PO-Revision-Date: 2012-04-15 19:44+0200\n"
+"Last-Translator: Joëlle Cornavin <jcorn@free.fr>\n"
+"Language-Team: French <kde-francophone@kde.orh>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
+msgid "Incoming file transfer"
+msgstr "Transfert de fichiers entrants"
+
+#: filetransferchannelapprover.cpp:43
+#, kde-format
+msgid ""
+"<p>%1 is sending you a file. Do you accept the file transfer?</"
+"p><p><i>Filename:</i> %2</p>"
+msgstr ""
+"<p>%1 vous envoie en ce moment un fichier. Acceptez-vous le transfert du "
+"fichier ?</p><p><i>Nom de fichier :</i> %2</p>"
+
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
+msgid "Accept"
+msgstr "Accepter"
+
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
+msgid "Reject"
+msgstr "Rejeter"
+
+#: filetransferchannelapprover.cpp:69
+#, kde-format
+msgid "Incoming file transfer from %1"
+msgstr "Transfert de fichiers entrants depuis %1"
+
+#: textchannelapprover.cpp:70
+msgid "Incoming message"
+msgstr "Message entrant"
+
+#: textchannelapprover.cpp:73
+msgid "Respond"
+msgstr "Répondre"
+
+#: textchannelapprover.cpp:116
+#, kde-format
+msgid "You have 1 incoming conversation"
+msgid_plural "You have %1 incoming conversations"
+msgstr[0] "Vous avez une conversation entrante"
+msgstr[1] "Vous avez %1 conversations entrantes"
+
+#: ktpapprovermodule.cpp:74
+msgctxt "@info:credit"
+msgid "(C) 2010, Collabora Ltd."
+msgstr "(C) 2010, Collabora Ltd."
+
+#: ktpapprovermodule.cpp:75
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Joëlle Cornavin"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jcorn@free.fr"

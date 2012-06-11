@@ -1,0 +1,82 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-02 03:25+0200\n"
+"PO-Revision-Date: 2011-12-20 18:40+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
+msgid "Incoming file transfer"
+msgstr "Вхідне перенесення файла"
+
+#: filetransferchannelapprover.cpp:43
+#, kde-format
+msgid ""
+"<p>%1 is sending you a file. Do you accept the file transfer?</"
+"p><p><i>Filename:</i> %2</p>"
+msgstr ""
+"<p>Отримано повідомлення щодо надсилання файла від %1. Ви згодні прийняти "
+"цей файл?</p><p><i>Назва файла:</i> %2</p>"
+
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
+msgid "Accept"
+msgstr "Прийняти"
+
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
+msgid "Reject"
+msgstr "Відмовити"
+
+#: filetransferchannelapprover.cpp:69
+#, kde-format
+msgid "Incoming file transfer from %1"
+msgstr "Вхідне передавання файла від %1"
+
+#: textchannelapprover.cpp:70
+msgid "Incoming message"
+msgstr "Вхідне повідомлення"
+
+#: textchannelapprover.cpp:73
+msgid "Respond"
+msgstr "Відповісти"
+
+#: textchannelapprover.cpp:116
+#, kde-format
+msgid "You have 1 incoming conversation"
+msgid_plural "You have %1 incoming conversations"
+msgstr[0] "Надійшов %1 вхідний запит щодо спілкування"
+msgstr[1] "Надійшло %1 вхідних запити щодо спілкування"
+msgstr[2] "Надійшло %1 вхідних запитів щодо спілкування"
+msgstr[3] "Надійшов вхідний запит щодо спілкування"
+
+#: ktpapprovermodule.cpp:74
+msgctxt "@info:credit"
+msgid "(C) 2010, Collabora Ltd."
+msgstr "© Collabora Ltd., 2010"
+
+#: ktpapprovermodule.cpp:75
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
