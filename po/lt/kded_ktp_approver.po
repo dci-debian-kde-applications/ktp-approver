@@ -1,26 +1,36 @@
 # Lithuanian translations for l package.
 # Copyright (C) 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the l package.
-# Automatically generated, 2012.
 #
+# Automatically generated, 2012.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-02 03:25+0200\n"
-"PO-Revision-Date: 2012-01-02 14:29+0300\n"
-"Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
-"Language-Team: none\n"
-"Language: \n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-08-05 18:39+0300\n"
+"Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Liudas Ališauskas"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "liudas@akmc.lt"
 
 #: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
 msgid "Incoming file transfer"
-msgstr ""
+msgstr "Įeinantis failo persiuntimas"
 
 #: filetransferchannelapprover.cpp:43
 #, kde-format
@@ -28,18 +38,69 @@ msgid ""
 "<p>%1 is sending you a file. Do you accept the file transfer?</"
 "p><p><i>Filename:</i> %2</p>"
 msgstr ""
+"<p>%1 siunčia Jums failą. Ar patvirtinate failo perdavimą?</p><p><i>Failo "
+"pavadinimas:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
+#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:80
 msgid "Accept"
 msgstr "Priimti"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
+#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:81
 msgid "Reject"
 msgstr "Atmesti"
 
 #: filetransferchannelapprover.cpp:69
 #, kde-format
 msgid "Incoming file transfer from %1"
+msgstr "Įeinantis failo persiuntimas iš %1"
+
+#: ktpapprovermodule.cpp:79
+msgctxt "@info:credit"
+msgid "(C) 2010, Collabora Ltd."
+msgstr "(C) 2010, Collabora Ltd."
+
+#: ktpapprovermodule.cpp:80
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: streamtubechannelapprover.cpp:43
+msgctxt "Acronym for the secure shell service"
+msgid "SSH"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:52
+#, kde-format
+msgid "Incoming %1 share request"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:55
+#, kde-format
+msgid "<p>%1 wants to start a %2 sharing session with you</p>"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:76
+#, fuzzy
+#| msgid "Incoming message"
+msgid "Incoming share request"
+msgstr "Įeinanti žinutė"
+
+#: streamtubechannelapprover.cpp:78
+#, fuzzy, kde-format
+#| msgid "Incoming file transfer from %1"
+msgid "Incoming share request from %1"
+msgstr "Įeinantis failo persiuntimas iš %1"
+
+#: streamtubechannelapprover.cpp:106
+#, kde-format
+msgid "%1 share with %2"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:109
+#, kde-format
+msgid "Stop %1 Sharing"
 msgstr ""
 
 #: textchannelapprover.cpp:70
@@ -54,26 +115,7 @@ msgstr "Atsiliepti"
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ktpapprovermodule.cpp:74
-msgctxt "@info:credit"
-msgid "(C) 2010, Collabora Ltd."
-msgstr "(C) 2010, Collabora Ltd."
-
-#: ktpapprovermodule.cpp:75
-msgctxt "@info:credit"
-msgid "George Kiagiadakis"
-msgstr "George Kiagiadakis"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
+msgstr[0] "Turite 1 įeinantį pokalbį"
+msgstr[1] "Turite %1 įeinančius pokalbius"
+msgstr[2] "Turite %1 įeinančių pokalbių"
+msgstr[3] "Turite %1 įeinantį pokalbį"
