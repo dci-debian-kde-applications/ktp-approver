@@ -1,20 +1,32 @@
 # Copyright © 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the ktp-approver package.
-#
 # Tommi Nieminen <translator@legisign.org>, 2012.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
+#
+# KDE 4.9 Finnish translation sprint 2012-06/07
 msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-02 03:25+0200\n"
-"PO-Revision-Date: 2012-04-15 22:41+0300\n"
-"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
-"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-08-13 23:42+0300\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-07-19 16:25:12+0000\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translator@legisign.org"
 
 #: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
 msgid "Incoming file transfer"
@@ -30,10 +42,12 @@ msgstr ""
 "p><p><i>Tiedostonimi:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
+#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:80
 msgid "Accept"
 msgstr "Hyväksy"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
+#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:81
 msgid "Reject"
 msgstr "Torju"
 
@@ -41,6 +55,53 @@ msgstr "Torju"
 #, kde-format
 msgid "Incoming file transfer from %1"
 msgstr "Saapuva tiedostonsiirto osoitteesta %1"
+
+#: ktpapprovermodule.cpp:79
+msgctxt "@info:credit"
+msgid "(C) 2010, Collabora Ltd."
+msgstr "(C) 2010, Collabora Ltd."
+
+#: ktpapprovermodule.cpp:80
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: streamtubechannelapprover.cpp:43
+msgctxt "Acronym for the secure shell service"
+msgid "SSH"
+msgstr "SSH"
+
+#: streamtubechannelapprover.cpp:52
+#, kde-format
+msgid "Incoming %1 share request"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:55
+#, kde-format
+msgid "<p>%1 wants to start a %2 sharing session with you</p>"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:76
+#, fuzzy
+#| msgid "Incoming message"
+msgid "Incoming share request"
+msgstr "Saapuva viesti"
+
+#: streamtubechannelapprover.cpp:78
+#, fuzzy, kde-format
+#| msgid "Incoming file transfer from %1"
+msgid "Incoming share request from %1"
+msgstr "Saapuva tiedostonsiirto osoitteesta %1"
+
+#: streamtubechannelapprover.cpp:106
+#, kde-format
+msgid "%1 share with %2"
+msgstr ""
+
+#: streamtubechannelapprover.cpp:109
+#, kde-format
+msgid "Stop %1 Sharing"
+msgstr ""
 
 #: textchannelapprover.cpp:70
 msgid "Incoming message"
@@ -56,23 +117,3 @@ msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "Sinulle on 1 tuleva keskustelu"
 msgstr[1] "Sinulle on %1 tulevaa keskustelua"
-
-#: ktpapprovermodule.cpp:74
-msgctxt "@info:credit"
-msgid "(C) 2010, Collabora Ltd."
-msgstr "(C) 2010, Collabora Ltd."
-
-#: ktpapprovermodule.cpp:75
-msgctxt "@info:credit"
-msgid "George Kiagiadakis"
-msgstr "George Kiagiadakis"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Tommi Nieminen"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "translator@legisign.org"
