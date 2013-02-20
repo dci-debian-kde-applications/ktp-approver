@@ -1,12 +1,12 @@
 # Translation of kded_ktp_approver.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-06-30 18:59+0200\n"
+"PO-Revision-Date: 2013-02-09 22:46+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavian\n"
@@ -70,15 +70,17 @@ msgctxt "Acronym for the secure shell service"
 msgid "SSH"
 msgstr "ССХ"
 
+# >! What is %1?
 #: streamtubechannelapprover.cpp:52
 #, kde-format
 msgid "Incoming %1 share request"
-msgstr "Долазни захтева за %1 дељење"
+msgstr "Долазни захтев за %1 дељење"
 
+# >! What is %2?
 #: streamtubechannelapprover.cpp:55
 #, kde-format
 msgid "<p>%1 wants to start a %2 sharing session with you</p>"
-msgstr "<p>%1 жели да започне сесију %2 дељења са вама.</p>"
+msgstr "<p>%1 жели да започне сесију %2 дељења са вама</p>"
 
 #: streamtubechannelapprover.cpp:76
 msgid "Incoming share request"
@@ -89,11 +91,13 @@ msgstr "Долазни захтев за дељење"
 msgid "Incoming share request from %1"
 msgstr "Долазни захтев за дељење од %1"
 
+# >! What is %1?
 #: streamtubechannelapprover.cpp:106
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 дељење са %2"
 
+# >! What is %1?
 #: streamtubechannelapprover.cpp:109
 #, kde-format
 msgid "Stop %1 Sharing"
