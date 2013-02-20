@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-01-10 02:22+0200\n"
+"PO-Revision-Date: 2012-10-08 20:29+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -66,39 +66,36 @@ msgstr "George Kiagiadakis"
 #: streamtubechannelapprover.cpp:43
 msgctxt "Acronym for the secure shell service"
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: streamtubechannelapprover.cpp:52
 #, kde-format
 msgid "Incoming %1 share request"
-msgstr ""
+msgstr "Sisenev %1 jagamise soov"
 
 #: streamtubechannelapprover.cpp:55
 #, kde-format
 msgid "<p>%1 wants to start a %2 sharing session with you</p>"
-msgstr ""
+msgstr "<p>%1 soovib alustada sinuga %2 jagatud seanssi</p>"
 
 #: streamtubechannelapprover.cpp:76
-#, fuzzy
-#| msgid "Incoming message"
 msgid "Incoming share request"
-msgstr "Sisenev sõnum"
+msgstr "Sisenev jagamissoov"
 
 #: streamtubechannelapprover.cpp:78
-#, fuzzy, kde-format
-#| msgid "Incoming file transfer from %1"
+#, kde-format
 msgid "Incoming share request from %1"
-msgstr "Sisenev failiülekanne kasutajalt %1"
+msgstr "Sisenev jagamissoov kasutajalt %1"
 
 #: streamtubechannelapprover.cpp:106
 #, kde-format
 msgid "%1 share with %2"
-msgstr ""
+msgstr "%1 jagamine kasutajaga %2"
 
 #: streamtubechannelapprover.cpp:109
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr ""
+msgstr "Peata %1 jagamine"
 
 #: textchannelapprover.cpp:70
 msgid "Incoming message"

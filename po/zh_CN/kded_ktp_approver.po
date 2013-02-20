@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-01-22 15:03+0800\n"
-"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"PO-Revision-Date: 2013-01-12 11:44-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -65,39 +66,36 @@ msgstr "George Kiagiadakis"
 #: streamtubechannelapprover.cpp:43
 msgctxt "Acronym for the secure shell service"
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: streamtubechannelapprover.cpp:52
 #, kde-format
 msgid "Incoming %1 share request"
-msgstr ""
+msgstr "收到 %1 的共享请求"
 
 #: streamtubechannelapprover.cpp:55
 #, kde-format
 msgid "<p>%1 wants to start a %2 sharing session with you</p>"
-msgstr ""
+msgstr "<p>%1 尝试启动 %2 来和您共享会话</p>"
 
 #: streamtubechannelapprover.cpp:76
-#, fuzzy
-#| msgid "Incoming message"
 msgid "Incoming share request"
-msgstr "收到消息"
+msgstr "收到共享请求"
 
 #: streamtubechannelapprover.cpp:78
-#, fuzzy, kde-format
-#| msgid "Incoming file transfer from %1"
+#, kde-format
 msgid "Incoming share request from %1"
-msgstr "收到 %1 的文件传输"
+msgstr "收到 %1 的共享请求"
 
 #: streamtubechannelapprover.cpp:106
 #, kde-format
 msgid "%1 share with %2"
-msgstr ""
+msgstr "%1 与 %2 进行了共享"
 
 #: streamtubechannelapprover.cpp:109
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr ""
+msgstr "停止 %1 的共享"
 
 #: textchannelapprover.cpp:70
 msgid "Incoming message"
@@ -111,5 +109,4 @@ msgstr "响应"
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "您有 %1 个会话"
