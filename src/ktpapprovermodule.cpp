@@ -17,6 +17,7 @@
 */
 #include "approverdaemon.h"
 #include "ktpapproverfactory.h"
+#include "version.h"
 
 #include <KAboutData>
 #include <KLocale>
@@ -30,6 +31,7 @@
 #include <TelepathyQt/TextChannel>
 #include <TelepathyQt/IncomingFileTransferChannel>
 #include <TelepathyQt/IncomingStreamTubeChannel>
+#include <TelepathyQt/IncomingDBusTubeChannel>
 
 
 class KTpApproverModule : public KDEDModule
@@ -61,6 +63,9 @@ public:
         channelFactory->addFeaturesForIncomingStreamTubes(
                     Tp::IncomingStreamTubeChannel::FeatureCore);
 
+        channelFactory->addFeaturesForIncomingDBusTubes(
+                    Tp::IncomingDBusTubeChannel::FeatureCore);
+
         Tp::ContactFactoryPtr contactFactory =
             Tp::ContactFactory::create(Tp::Features()
                                         << Tp::Contact::FeatureAlias
@@ -74,7 +79,8 @@ public:
 
     static inline KAboutData aboutData()
     {
-        KAboutData aboutData("ktp-approver", "kded_ktp_approver", KLocalizedString(), "0.5.3",
+        KAboutData aboutData("ktp-approver", "kded_ktp_approver", KLocalizedString(),
+                             KTP_APPROVER_VERSION,
                              KLocalizedString(), KAboutData::License_LGPL,
                              ki18nc("@info:credit", "(C) 2010, Collabora Ltd."));
         aboutData.addAuthor(ki18nc("@info:credit", "George Kiagiadakis"),
