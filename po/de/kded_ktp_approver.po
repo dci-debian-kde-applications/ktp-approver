@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2013-01-28 20:43+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2013-03-12 22:10+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -37,12 +37,12 @@ msgstr ""
 "p><p><i>Dateiname:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:80
+#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
 msgid "Accept"
 msgstr "Annehmen"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: streamtubechannelapprover.cpp:64 streamtubechannelapprover.cpp:81
+#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
 msgid "Reject"
 msgstr "Ablehnen"
 
@@ -51,52 +51,15 @@ msgstr "Ablehnen"
 msgid "Incoming file transfer from %1"
 msgstr "Eingehende Dateiübertragung von %1"
 
-#: ktpapprovermodule.cpp:79
+#: ktpapprovermodule.cpp:85
 msgctxt "@info:credit"
 msgid "(C) 2010, Collabora Ltd."
 msgstr "© 2010, Collabora Ltd."
 
-#: ktpapprovermodule.cpp:80
+#: ktpapprovermodule.cpp:86
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
-
-#: streamtubechannelapprover.cpp:43
-msgctxt "Acronym for the secure shell service"
-msgid "SSH"
-msgstr "SSH"
-
-#: streamtubechannelapprover.cpp:52
-#, kde-format
-msgid "Incoming %1 share request"
-msgstr ""
-
-#: streamtubechannelapprover.cpp:55
-#, kde-format
-msgid "<p>%1 wants to start a %2 sharing session with you</p>"
-msgstr "<p>%1 möchte eine gemeinsame Sitzung %2 mit Ihnen starten</p>"
-
-#: streamtubechannelapprover.cpp:76
-#, fuzzy
-#| msgid "Incoming message"
-msgid "Incoming share request"
-msgstr "Eingehende Nachricht"
-
-#: streamtubechannelapprover.cpp:78
-#, fuzzy, kde-format
-#| msgid "Incoming file transfer from %1"
-msgid "Incoming share request from %1"
-msgstr "Eingehende Dateiübertragung von %1"
-
-#: streamtubechannelapprover.cpp:106
-#, kde-format
-msgid "%1 share with %2"
-msgstr ""
-
-#: streamtubechannelapprover.cpp:109
-#, kde-format
-msgid "Stop %1 Sharing"
-msgstr ""
 
 #: textchannelapprover.cpp:70
 msgid "Incoming message"
@@ -112,3 +75,40 @@ msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "Sie haben 1 eingehende Unterhaltung"
 msgstr[1] "Sie haben %1 eingehende Unterhaltungen"
+
+#: tubechannelapprover.cpp:59
+msgid "Unknown Incoming Tube"
+msgstr ""
+
+#: tubechannelapprover.cpp:59
+#, kde-format
+msgid "Incoming tube from %1 of an unknown type"
+msgstr ""
+
+#: tubechannelapprover.cpp:75
+msgid "Incoming Request"
+msgstr "Eingehende Anfrage"
+
+#: tubechannelapprover.cpp:75
+#, fuzzy, kde-format
+msgid "%1 wants to start a remote service with you"
+msgstr "<p>%1 möchte eine gemeinsame Sitzung %2 mit Ihnen starten</p>"
+
+#: tubechannelapprover.cpp:125
+#, kde-format
+msgid "Incoming %1 request from %2"
+msgstr "Eingehende Anfrage %1 von %2"
+
+#: tubechannelapprover.cpp:140
+#, kde-format
+msgid "%1 share with %2"
+msgstr "%1 mit %2 freigeben"
+
+#: tubechannelapprover.cpp:143
+#, kde-format
+msgid "Stop %1 Sharing"
+msgstr "Freigabe von %1 anhalten"
+
+#~ msgctxt "Acronym for the secure shell service"
+#~ msgid "SSH"
+#~ msgstr "SSH"

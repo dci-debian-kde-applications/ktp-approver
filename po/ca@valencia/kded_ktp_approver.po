@@ -1,33 +1,36 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Translation of kded_ktp_approver.po to Catalan
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
 #
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012, 2013.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-11 22:19+0100\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2012-09-24 18:52+0200\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
+"X-Accelerator-Marker: &\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Asserhäll"
+msgstr "Josep Ma. Ferrer"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@comhem.se"
+msgstr "txemaq@gmail.com"
 
 #: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
 msgid "Incoming file transfer"
-msgstr "Inkommande filöverföring"
+msgstr "Transferència de fitxer entrant"
 
 #: filetransferchannelapprover.cpp:43
 #, kde-format
@@ -35,28 +38,28 @@ msgid ""
 "<p>%1 is sending you a file. Do you accept the file transfer?</"
 "p><p><i>Filename:</i> %2</p>"
 msgstr ""
-"<p>%1 skickar en fil till dig. Accepterar du filöverföringen?</"
-"p><p><i>Filnamn:</i> %2</p>"
+"<p>%1 vos està enviant un fitxer. Accepteu la transferència del fitxer?</"
+"p><p><i>Nom del fitxer:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
 #: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
 msgid "Accept"
-msgstr "Acceptera"
+msgstr "Accepta"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
 #: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
 msgid "Reject"
-msgstr "Avslå"
+msgstr "Rebutja"
 
 #: filetransferchannelapprover.cpp:69
 #, kde-format
 msgid "Incoming file transfer from %1"
-msgstr "Inkommande filöverföring från %1"
+msgstr "Transferència de fitxer entrant de %1"
 
 #: ktpapprovermodule.cpp:85
 msgctxt "@info:credit"
 msgid "(C) 2010, Collabora Ltd."
-msgstr "© 2010, Collabora Ltd."
+msgstr "(C) 2010, Collabora Ltd."
 
 #: ktpapprovermodule.cpp:86
 msgctxt "@info:credit"
@@ -65,55 +68,59 @@ msgstr "George Kiagiadakis"
 
 #: textchannelapprover.cpp:70
 msgid "Incoming message"
-msgstr "Inkommande meddelande"
+msgstr "Missatge entrant"
 
 #: textchannelapprover.cpp:73
 msgid "Respond"
-msgstr "Svara"
+msgstr "Respon"
 
 #: textchannelapprover.cpp:116
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
-msgstr[0] "Du har en inkommande konversation"
-msgstr[1] "Du har en %1 inkommande konversationer"
+msgstr[0] "Teniu 1 conversa entrant"
+msgstr[1] "Teniu %1 converses entrants"
 
 #: tubechannelapprover.cpp:59
 msgid "Unknown Incoming Tube"
-msgstr "Okänt inkommande rör"
+msgstr ""
 
 #: tubechannelapprover.cpp:59
 #, kde-format
 msgid "Incoming tube from %1 of an unknown type"
-msgstr "Inkommande rör från %1 av en okänd typ"
+msgstr ""
 
 #: tubechannelapprover.cpp:75
+#, fuzzy
+#| msgid "Incoming share request"
 msgid "Incoming Request"
-msgstr "Inkommande begäran"
+msgstr "Sol·licitud de compartició entrant"
 
 #: tubechannelapprover.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "<p>%1 wants to start a %2 sharing session with you</p>"
 msgid "%1 wants to start a remote service with you"
-msgstr "%1 vill starta en fjärrtjänst hos dig"
+msgstr "<p>%1 vol iniciar una sessió de compartició de %2 amb vós</p>"
 
 #: tubechannelapprover.cpp:125
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Incoming share request from %1"
 msgid "Incoming %1 request from %2"
-msgstr "Inkommande begäran om %1 från %2"
+msgstr "Sol·licitud de compartició entrant des de %1"
 
 #: tubechannelapprover.cpp:140
 #, kde-format
 msgid "%1 share with %2"
-msgstr "Dela %1 med %2"
+msgstr "%1 comparteix amb %2"
 
 #: tubechannelapprover.cpp:143
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr "Stoppa delning av %1"
+msgstr "Para la compartició %1"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"
 #~ msgstr "SSH"
 
 #~ msgid "Incoming %1 share request"
-#~ msgstr "Inkommande begäran om delning %1"
+#~ msgstr "Sol·licitud de compartició entrant de %1"
