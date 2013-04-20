@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-03-05 23:49+0200\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-14 13:23+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -66,15 +66,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Saapuva viesti"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Vastaa"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -82,44 +82,52 @@ msgstr[0] "Sinulle on 1 tuleva keskustelu"
 msgstr[1] "Sinulle on %1 tulevaa keskustelua"
 
 # ”Tube” on jätetty kääntämättä, koska käyttäjän ei pitäisi tätä viestiä nähdä ja koska muuten tunnistettavuus voi kärsiä.
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Tuntematon saapuva tube"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Tuntematon saapuva yhteys"
 
-# ”Tube” on jätetty kääntämättä, koska käyttäjän ei pitäisi tätä viestiä nähdä ja koska muuten tunnistettavuus voi kärsiä.
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Tuntemattoman tyyppinen käyttäjältä %1 saapuva tube"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Saapuva pyyntö"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 haluaa aloittaa etäpalvelun kanssasi"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 haluaa aloittaa tuntemattoman palvelun kanssasi"
 
 #: tubechannelapprover.cpp:125
-#, fuzzy, kde-format
+#, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Saapuva jakamispyyntö käyttäjältä %1"
+msgstr ""
+"Saapuva %1-pyyntö käyttäjältä %2"
+"|/|"
+"Saapuva $[yhdysmerkki %1 pyyntö] käyttäjältä %2"
 
 #: tubechannelapprover.cpp:140
 #, kde-format
 msgid "%1 share with %2"
 msgstr ""
-"%1-jako käyttäjän %2 kanssa|/|$[yhdysmerkki %1 jako] käyttäjän %2 kanssa"
+"%1-jako käyttäjän %2 kanssa"
+"|/|"
+"$[yhdysmerkki %1 jako] käyttäjän %2 kanssa"
 
 #: tubechannelapprover.cpp:143
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr "Lopeta %1-jakaminen|/|Lopeta $[yhdysmerkki %1 jakaminen]"
+msgstr ""
+"Lopeta %1-jakaminen"
+"|/|"
+"Lopeta $[yhdysmerkki %1 jakaminen]"
+
+# ”Tube” on jätetty kääntämättä, koska käyttäjän ei pitäisi tätä viestiä nähdä ja koska muuten tunnistettavuus voi kärsiä.
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Tuntemattoman tyyppinen käyttäjältä %1 saapuva tube"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Saapuva pyyntö"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"
 #~ msgstr "SSH"
 
 #~ msgid "Incoming %1 share request"
-#~ msgstr "Saapuva %1-jakamispyyntö|/|Saapuva $[yhdysmerkki %1 jakamispyyntö]"
+#~ msgstr ""
+#~ "Saapuva %1-jakamispyyntö"
+#~ "|/|"
+#~ "Saapuva $[yhdysmerkki %1 jakamispyyntö]"

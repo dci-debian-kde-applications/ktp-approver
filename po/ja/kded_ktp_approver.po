@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-kde-approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
 "PO-Revision-Date: 2011-10-25 22:58-0700\n"
 "Last-Translator: Japanese KDE translation team <Kdeveloper@kde.gr.jp>\n"
 "Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
@@ -58,37 +58,28 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr ""
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr ""
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr ""
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] ""
 msgstr[1] ""
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
 msgstr ""
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr ""
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr ""
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
 msgstr ""
 
 #: tubechannelapprover.cpp:125
