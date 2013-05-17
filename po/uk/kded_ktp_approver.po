@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-07 07:24+0200\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-14 16:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -64,15 +64,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Вхідне повідомлення"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Відповісти"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -81,23 +81,14 @@ msgstr[1] "Надійшло %1 вхідних запити щодо спілку
 msgstr[2] "Надійшло %1 вхідних запитів щодо спілкування"
 msgstr[3] "Надійшов вхідний запит щодо спілкування"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Невідомий вхідний канал"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Невідоме вхідне з’єднання"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Вхідний канал від %1 належить до невідомого типу"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Вхідна пропозиція"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 бажає надати вам доступ до спільного сеансу"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 бажає запустити невідому службу для користування разом з вами"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
@@ -113,6 +104,12 @@ msgstr "Спільний сеанс %1 з %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Припинити спільний сеанс з %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Вхідний канал від %1 належить до невідомого типу"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Вхідна пропозиція"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

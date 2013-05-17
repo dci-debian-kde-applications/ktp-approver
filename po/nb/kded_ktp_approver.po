@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-07 02:49+0100\n"
+"POT-Creation-Date: 2013-04-10 10:02+0200\n"
 "PO-Revision-Date: 2012-10-16 12:15+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -65,15 +65,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Innkommende melding"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Svar"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"

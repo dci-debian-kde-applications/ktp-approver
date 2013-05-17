@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-04-10 10:02+0200\n"
 "PO-Revision-Date: 2013-02-09 22:46+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -65,15 +65,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "Georgios Kjajadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Dolazna poruka"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Odgovori"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"

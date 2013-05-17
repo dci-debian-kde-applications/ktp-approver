@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
 "PO-Revision-Date: 2013-03-16 12:13+0200\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -63,15 +63,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Mesaj de intrare"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Răspunde"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -79,22 +79,16 @@ msgstr[0] "Aveți o conversație de intrare"
 msgstr[1] "Aveți %1 conversații de intrare"
 msgstr[2] "Aveți %1 de conversații de intrare"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
+#: tubechannelapprover.cpp:72
+#, fuzzy
+#| msgid "Unknown Incoming Tube"
+msgid "Unknown Incoming Connection"
 msgstr "Tub de intrare necunoscut"
 
-#: tubechannelapprover.cpp:59
-#, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Tub de intrare de la %1 cu tip necunoscut"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Cerere de intrare"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
+#: tubechannelapprover.cpp:73
+#, fuzzy, kde-format
+#| msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
 msgstr "%1 vrea să pornească un serviciu distant cu dumneavoastră"
 
 #: tubechannelapprover.cpp:125
@@ -111,6 +105,12 @@ msgstr "Partajare %1 cu %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Oprește partajarea %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Tub de intrare de la %1 cu tip necunoscut"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Cerere de intrare"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

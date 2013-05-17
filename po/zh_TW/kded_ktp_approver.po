@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
 "PO-Revision-Date: 2013-02-21 08:25+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -63,36 +63,30 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "進來的訊息"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "回應"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "您有 %1 個進來的對話"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
+#: tubechannelapprover.cpp:72
+#, fuzzy
+#| msgid "Unknown Incoming Tube"
+msgid "Unknown Incoming Connection"
 msgstr "未知的進來的 Tube"
 
-#: tubechannelapprover.cpp:59
-#, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "從 %1 送來一個未知型態的 Tube"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "進來的要求"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
+#: tubechannelapprover.cpp:73
+#, fuzzy, kde-format
+#| msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
 msgstr "%1 打算與您啟動一個遠端服務"
 
 #: tubechannelapprover.cpp:125
@@ -109,6 +103,12 @@ msgstr "與 %2 分享 %1"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "停止分享 %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "從 %1 送來一個未知型態的 Tube"
+
+#~ msgid "Incoming Request"
+#~ msgstr "進來的要求"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
 "PO-Revision-Date: 2013-03-30 09:48+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -63,37 +63,31 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Indkommende besked"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Svar"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "Du har 1 indkommende samtale"
 msgstr[1] "Du har %1 indkommende samtaler"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
+#: tubechannelapprover.cpp:72
+#, fuzzy
+#| msgid "Unknown Incoming Tube"
+msgid "Unknown Incoming Connection"
 msgstr "Ukendt indkommende forbindelse"
 
-#: tubechannelapprover.cpp:59
-#, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Indkommende forbindelse fra %1 af ukendt type"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Indkommende forespørgsel"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
+#: tubechannelapprover.cpp:73
+#, fuzzy, kde-format
+#| msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
 msgstr "%1 vil starte en ekstern tjeneste med dig"
 
 #: tubechannelapprover.cpp:125
@@ -110,6 +104,12 @@ msgstr "Del %1 med %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stop deling af %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Indkommende forbindelse fra %1 af ukendt type"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Indkommende forespørgsel"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

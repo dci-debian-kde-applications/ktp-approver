@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-14 09:26+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-14 14:33+0200\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -61,15 +61,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Prichádzajúca správa"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Odpovedať"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -77,23 +77,16 @@ msgstr[0] "Máte 1 prichádzajúcu koncerzáciu"
 msgstr[1] "Máte %1 prichádzajúce koncerzácie"
 msgstr[2] "Máte %1 prichádzajúcich koncerzácií"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Neznáma prichádzajúca rúra"
+#: tubechannelapprover.cpp:72
+#| msgid "Unknown Incoming Tube"
+msgid "Unknown Incoming Connection"
+msgstr "Neznáme prichádzajúce pripojenie"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Prichádzajúca rúra %1 neznámeho typu"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Prichádzajúca požiadavka"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 chce spustiť vzdialenú službu s vami"
+#| msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 chce spustiť neznámu službu s vami"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
@@ -109,3 +102,9 @@ msgstr "%1 zdieľať s %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zastaviť %1 zdieľanie"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Prichádzajúca rúra %1 neznámeho typu"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Prichádzajúca požiadavka"
