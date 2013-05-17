@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-03-12 22:10+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-15 20:57+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -61,37 +61,28 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Eingehende Nachricht"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Antworten"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "Sie haben 1 eingehende Unterhaltung"
 msgstr[1] "Sie haben %1 eingehende Unterhaltungen"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr ""
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Unbekannte eingehende Verbindung"
 
-#: tubechannelapprover.cpp:59
-#, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr ""
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Eingehende Anfrage"
-
-#: tubechannelapprover.cpp:75
+#: tubechannelapprover.cpp:73
 #, fuzzy, kde-format
-msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
 msgstr "<p>%1 möchte eine gemeinsame Sitzung %2 mit Ihnen starten</p>"
 
 #: tubechannelapprover.cpp:125
@@ -108,6 +99,9 @@ msgstr "%1 mit %2 freigeben"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Freigabe von %1 anhalten"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Eingehende Anfrage"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

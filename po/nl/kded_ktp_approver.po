@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-07 11:50+0100\n"
-"Last-Translator: Freek de Kruijf <f.de.kruijf@gmail.com>\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-14 14:48+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -63,38 +63,29 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Inkomend bericht"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Antwoord"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "U hebt 1 inkomende conversatie"
 msgstr[1] "U hebt %1 inkomende conversaties"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Onbekende inkomende buis"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Onbekende inkomende verbinding"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Inkomende buis van %1 van een onbekend type"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Inkomend verzoek"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 wil samen met u een service op afstand starten"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 wil samen met u een onbekende service beginnen"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
@@ -110,6 +101,12 @@ msgstr "%1 delen met %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stop %1 delen"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Inkomende buis van %1 van een onbekend type"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Inkomend verzoek"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

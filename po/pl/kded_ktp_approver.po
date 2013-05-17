@@ -1,15 +1,15 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2012.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-12-24 11:43+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-01 08:23+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language-Team: Polish <kdei18n-pl-uwagi>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,15 +64,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:70
+#: textchannelapprover.cpp:74
 msgid "Incoming message"
 msgstr "Wiadomość przychodząca"
 
-#: textchannelapprover.cpp:73
+#: textchannelapprover.cpp:77
 msgid "Respond"
 msgstr "Odpowiedz"
 
-#: textchannelapprover.cpp:116
+#: textchannelapprover.cpp:112
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -80,29 +80,22 @@ msgstr[0] "Masz 1 przychodzącą konwersację"
 msgstr[1] "Masz %1 przychodzące konwersacje"
 msgstr[2] "Masz %1 przychodzących konwersacji"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr ""
-
-#: tubechannelapprover.cpp:59
-#, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr ""
-
-#: tubechannelapprover.cpp:75
+#: tubechannelapprover.cpp:72
 #, fuzzy
-msgid "Incoming Request"
-msgstr "Przychodzące żądanie współdzielenia"
+#| msgid "Unknown Incoming Tube"
+msgid "Unknown Incoming Connection"
+msgstr "Nieznana przychodząca rozmowa wideo"
 
-#: tubechannelapprover.cpp:75
+#: tubechannelapprover.cpp:73
 #, fuzzy, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "<p>%1 chce z tobą rozpocząć współdzieloną sesję %2</p>"
+#| msgid "%1 wants to start a remote service with you"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 chce z tobą rozpocząć zdalną usługę"
 
 #: tubechannelapprover.cpp:125
-#, fuzzy, kde-format
+#, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Przychodzące żądanie współdzielenia od %1"
+msgstr "Przychodzące żądanie %1 od %2"
 
 #: tubechannelapprover.cpp:140
 #, kde-format
@@ -113,6 +106,12 @@ msgstr "Współdziel %1 z %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zatrzymaj współdzielenie %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Przychodząca rozmowa wideo od %1 nieznanego typu"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Przychodzące żądanie"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"
