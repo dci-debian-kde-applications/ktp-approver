@@ -1,9 +1,13 @@
-ktp-approver (0.5.3-1) UNRELEASED; urgency=low
+ktp-approver (0.6.1-1) UNRELEASED; urgency=low
 
+  [ Ritesh Raj Sarraf ]
   * [75ed101] Imported Upstream version 0.5.1
   * [d15f716] Imported Upstream version 0.5.3
 
- -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 20 Feb 2013 22:46:51 +0530
+  [ Diane Trout ]
+  * [e5aeb91] Imported Upstream Version 0.6.1
+
+ -- Diane Trout <diane@ghic.org>  Fri, 17 May 2013 13:38:27 -0700
 
 ktp-approver (0.4.0-1) unstable; urgency=low
 
