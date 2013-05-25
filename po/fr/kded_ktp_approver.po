@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-17 19:45+0100\n"
+"PO-Revision-Date: 2013-04-21 19:43+0200\n"
 "Last-Translator: Joëlle Cornavin <jcorn@free.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -80,14 +80,11 @@ msgstr[0] "Vous avez une conversation entrante"
 msgstr[1] "Vous avez %1 conversations entrantes"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Tube entrant inconnu"
+msgstr "Connexion entrante inconnue"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
 msgstr "%1 veut démarrer un service distant avec vous"
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-07 10:59+0000\n"
+"PO-Revision-Date: 2013-04-15 13:26+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: \n"
@@ -75,16 +75,13 @@ msgstr[0] "Recebeu uma conversa"
 msgstr[1] "Recebeu %1 conversas"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Canal de Recepção Desconhecido"
+msgstr "Ligação de Recepção Desconhecida"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 deseja iniciar um serviço remoto consigo"
+msgstr "%1 deseja iniciar um serviço desconhecido consigo"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
@@ -104,5 +101,6 @@ msgstr "Parar a Partilha de %1"
 #~ msgid "Incoming tube from %1 of an unknown type"
 #~ msgstr "O canal de recepção de %1 é de um tipo desconhecido"
 
+#, fuzzy
 #~ msgid "Incoming Request"
-#~ msgstr "Pedido Recebido"
+#~ msgstr "Pedido de %1 recebido de %2"

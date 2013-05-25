@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-04-15 09:26+0200\n"
+"PO-Revision-Date: 2013-04-16 08:25+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -81,7 +81,7 @@ msgstr[2] "Máte %1 příchozích rozhovorů"
 
 #: tubechannelapprover.cpp:72
 msgid "Unknown Incoming Connection"
-msgstr ""
+msgstr "Neznámé příchozí spojení"
 
 #: tubechannelapprover.cpp:73
 #, kde-format

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-10 10:02+0200\n"
-"PO-Revision-Date: 2013-02-09 22:46+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-18 13:30+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
@@ -82,38 +82,29 @@ msgstr[1] "Imate %1 dolazna razgovora"
 msgstr[2] "Imate %1 dolaznih razgovora"
 msgstr[3] "Imate dolazni razgovor"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Nepoznata dolazna cev"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Nepoznata dolazna veza"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Dolazna cev nepoznatog tipa od %1"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Dolazni zahtev"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 želi da započne udaljeni servis sa vama"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 želi da započne nepoznati servis sa vama"
 
 # >! What is %1?
 #: tubechannelapprover.cpp:125
 #, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Dolazni %1 zahtev od %2"
+msgstr "Dolazni %1 zahtjev od %2"
 
 # >! What is %1?
 #: tubechannelapprover.cpp:140
 #, kde-format
 msgid "%1 share with %2"
-msgstr "%1 deljenje sa %2"
+msgstr "%1 dijeljenje sa %2"
 
 # >! What is %1?
 #: tubechannelapprover.cpp:143
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr "Zaustavi %1 deljenje"
+msgstr "Zaustavi %1 dijeljenje"

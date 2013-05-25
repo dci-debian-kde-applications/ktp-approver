@@ -78,13 +78,11 @@ msgstr[1] "Máte %1 prichádzajúce koncerzácie"
 msgstr[2] "Máte %1 prichádzajúcich koncerzácií"
 
 #: tubechannelapprover.cpp:72
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
 msgstr "Neznáme prichádzajúce pripojenie"
 
 #: tubechannelapprover.cpp:73
 #, kde-format
-#| msgid "%1 wants to start a remote service with you"
 msgid "%1 wants to start an unknown service with you"
 msgstr "%1 chce spustiť neznámu službu s vami"
 
@@ -102,9 +100,3 @@ msgstr "%1 zdieľať s %2"
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zastaviť %1 zdieľanie"
-
-#~ msgid "Incoming tube from %1 of an unknown type"
-#~ msgstr "Prichádzajúca rúra %1 neznámeho typu"
-
-#~ msgid "Incoming Request"
-#~ msgstr "Prichádzajúca požiadavka"

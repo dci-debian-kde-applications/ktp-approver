@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-10 21:27+0200\n"
+"PO-Revision-Date: 2013-04-20 23:42+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -79,16 +79,13 @@ msgstr[0] "Έχετε 1 εισερχόμενη συνομιλία"
 msgstr[1] "Έχετε %1 εισερχόμενες συνομιλίες"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Άγνωστο εισερχόμενο κανάλι"
+msgstr "Άγνωστη εισερχόμενη σύνδεση"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 θέλει να ξεκινήσει μια απομακρυσμένη συνεδρία με εσάς"
+msgstr "%1 θέλει να ξεκινήσει μια άγνωστη υπηρεσία με εσάς"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
