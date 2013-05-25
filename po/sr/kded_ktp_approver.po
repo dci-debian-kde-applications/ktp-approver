@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-10 10:02+0200\n"
-"PO-Revision-Date: 2013-02-09 22:46+0100\n"
+"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"PO-Revision-Date: 2013-04-18 13:30+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -82,23 +82,14 @@ msgstr[1] "Имате %1 долазна разговора"
 msgstr[2] "Имате %1 долазних разговора"
 msgstr[3] "Имате долазни разговор"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Непозната долазна цев"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Непозната долазна веза"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Долазна цев непознатог типа од %1"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Долазни захтев"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 жели да започне удаљени сервис са вама"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 жели да започне непознати сервис са вама"
 
 # >! What is %1?
 #: tubechannelapprover.cpp:125

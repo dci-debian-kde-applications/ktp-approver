@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-21 08:25+0800\n"
+"PO-Revision-Date: 2013-04-22 12:47+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -78,16 +78,13 @@ msgid_plural "You have %1 incoming conversations"
 msgstr[0] "您有 %1 個進來的對話"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "未知的進來的 Tube"
+msgstr "未知的進來的連線"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 打算與您啟動一個遠端服務"
+msgstr "%1 打算與您啟動一個未知的服務"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

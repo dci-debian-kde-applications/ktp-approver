@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan, 2013.
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-03-03 04:36+0100\n"
-"Last-Translator: Volkan\n"
+"PO-Revision-Date: 2013-04-28 15:38+0200\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -78,16 +79,13 @@ msgid_plural "You have %1 incoming conversations"
 msgstr[0] "%1 gelen konuşmanız var"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Bilinmeyen Gelen Yayın"
+msgstr "Bilinmeyen Gelen Bağlantı"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 sizinle bir uzak hizmeti başlatmak istiyor"
+msgstr "%1 sizinle bilinmeyen bir hizmet başlatmak istiyor"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

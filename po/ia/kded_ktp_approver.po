@@ -79,13 +79,11 @@ msgstr[0] "Tu ha 1 conversation in arrivata"
 msgstr[1] "Tu ha %1 conversationes in arrivata"
 
 #: tubechannelapprover.cpp:72
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
 msgstr "Connexion incognite in arrivata"
 
 #: tubechannelapprover.cpp:73
 #, kde-format
-#| msgid "%1 wants to start a remote service with you"
 msgid "%1 wants to start an unknown service with you"
 msgstr "%1 vole initiar un servicio incognite con te"
 

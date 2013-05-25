@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-04-15 20:57+0200\n"
+"PO-Revision-Date: 2013-04-18 12:15+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -81,9 +81,9 @@ msgid "Unknown Incoming Connection"
 msgstr "Unbekannte eingehende Verbindung"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "<p>%1 möchte eine gemeinsame Sitzung %2 mit Ihnen starten</p>"
+msgstr "%1 möchte einen unbekannten Dienst mit Ihnen starten"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

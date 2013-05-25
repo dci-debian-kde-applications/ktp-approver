@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-04-05 18:49+0200\n"
+"PO-Revision-Date: 2013-04-19 17:00+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -82,16 +82,13 @@ msgstr[0] "Teniu 1 conversa entrant"
 msgstr[1] "Teniu %1 converses entrants"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Flux de dades d'entrada desconegut"
+msgstr "Connexió d'entrada desconeguda"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 vol iniciar un servei remot amb vós"
+msgstr "%1 vol iniciar un servei desconegut amb vós"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

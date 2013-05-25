@@ -3,13 +3,14 @@
 #
 # Yuri Efremov <yur.arh@gmail.com>, 2012, 2013.
 # Alexander Potashev <aspotashev@gmail.com>, 2012.
+# Alexander Lakhin <exclusion@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-11 21:35+0400\n"
-"Last-Translator: Yuri Efremov <yur.arh@gmail.com>\n"
+"PO-Revision-Date: 2013-05-08 08:18+0400\n"
+"Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -86,16 +87,13 @@ msgstr[2] "Поступило %1 новых бесед"
 msgstr[3] "Поступила новая беседа"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Неизвестный входящий канал"
+msgstr "Неизвестное входящее подключение"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 хочет начать общий сеанс с вами"
+msgstr "%1 хочет подключиться к вам, используя неизвестную службу"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

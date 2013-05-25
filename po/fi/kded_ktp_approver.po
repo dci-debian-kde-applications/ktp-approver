@@ -95,25 +95,19 @@ msgstr "%1 haluaa aloittaa tuntemattoman palvelun kanssasi"
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr ""
-"Saapuva %1-pyyntö käyttäjältä %2"
-"|/|"
-"Saapuva $[yhdysmerkki %1 pyyntö] käyttäjältä %2"
+"Saapuva %1-pyyntö käyttäjältä %2|/|Saapuva $[yhdysmerkki %1 pyyntö] "
+"käyttäjältä %2"
 
 #: tubechannelapprover.cpp:140
 #, kde-format
 msgid "%1 share with %2"
 msgstr ""
-"%1-jako käyttäjän %2 kanssa"
-"|/|"
-"$[yhdysmerkki %1 jako] käyttäjän %2 kanssa"
+"%1-jako käyttäjän %2 kanssa|/|$[yhdysmerkki %1 jako] käyttäjän %2 kanssa"
 
 #: tubechannelapprover.cpp:143
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr ""
-"Lopeta %1-jakaminen"
-"|/|"
-"Lopeta $[yhdysmerkki %1 jakaminen]"
+msgstr "Lopeta %1-jakaminen|/|Lopeta $[yhdysmerkki %1 jakaminen]"
 
 # ”Tube” on jätetty kääntämättä, koska käyttäjän ei pitäisi tätä viestiä nähdä ja koska muuten tunnistettavuus voi kärsiä.
 #~ msgid "Incoming tube from %1 of an unknown type"
@@ -127,7 +121,4 @@ msgstr ""
 #~ msgstr "SSH"
 
 #~ msgid "Incoming %1 share request"
-#~ msgstr ""
-#~ "Saapuva %1-jakamispyyntö"
-#~ "|/|"
-#~ "Saapuva $[yhdysmerkki %1 jakamispyyntö]"
+#~ msgstr "Saapuva %1-jakamispyyntö|/|Saapuva $[yhdysmerkki %1 jakamispyyntö]"

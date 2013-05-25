@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-04-01 08:23+0200\n"
+"PO-Revision-Date: 2013-05-01 07:46+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kdei18n-pl-uwagi>\n"
 "Language: pl\n"
@@ -81,16 +81,13 @@ msgstr[1] "Masz %1 przychodzące konwersacje"
 msgstr[2] "Masz %1 przychodzących konwersacji"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Nieznana przychodząca rozmowa wideo"
+msgstr "Nieznana przychodząca rozmowa"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 chce z tobą rozpocząć zdalną usługę"
+msgstr "%1 chce z tobą rozpocząć nieznaną usługę"
 
 #: tubechannelapprover.cpp:125
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-03-30 09:48+0100\n"
+"PO-Revision-Date: 2013-04-20 19:44+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "Language: da\n"
@@ -79,16 +79,13 @@ msgstr[0] "Du har 1 indkommende samtale"
 msgstr[1] "Du har %1 indkommende samtaler"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
 msgstr "Ukendt indkommende forbindelse"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 vil starte en ekstern tjeneste med dig"
+msgstr "%1 vil starte en ukendt tjeneste med dig"
 
 #: tubechannelapprover.cpp:125
 #, kde-format
