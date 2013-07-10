@@ -1,9 +1,5 @@
 ktp-approver (0.6.2-1) UNRELEASED; urgency=low
 
-  [ Ritesh Raj Sarraf ]
-  * [75ed101] Imported Upstream version 0.5.1
-  * [d15f716] Imported Upstream version 0.5.3
-
   [ Diane Trout ]
   * [e5aeb91] Imported Upstream Version 0.6.1
   * Imported Upstream version 0.6.2
