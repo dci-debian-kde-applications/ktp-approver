@@ -8,6 +8,7 @@ ktp-approver (0.6.2-1) UNRELEASED; urgency=low
   * [e5aeb91] Imported Upstream Version 0.6.1
   * Imported Upstream version 0.6.2
   * Set Uploaders to Diane Trout and Michał Zając
+  * Install ktp-approver.service
 
  -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:28:03 -0700
 
