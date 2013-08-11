@@ -1,4 +1,4 @@
-ktp-approver (0.6.2-1) UNRELEASED; urgency=low
+ktp-approver (0.6.3-1) unstable; urgency=low
 
   [ Diane Trout ]
   * Imported Upstream version 0.6.2
@@ -7,7 +7,12 @@ ktp-approver (0.6.2-1) UNRELEASED; urgency=low
   * Update Standards-Version to 3.9.4. No changes needed.
   * Update watch file as KDE-Telepathy is now in KDE stable.
 
- -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:28:03 -0700
+  [ Mark Purcell ] 
+  * Imported Upstream version 0.6.3
+  * Reinstate debian/ to origin/master
+  * Add myself to Uploaders
+
+ -- Mark Purcell <msp@debian.org>  Sun, 11 Aug 2013 10:12:02 +1000
 
 ktp-approver (0.4.0-1) unstable; urgency=low
 
