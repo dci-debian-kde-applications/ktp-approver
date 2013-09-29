@@ -39,7 +39,7 @@ TubeChannelApprover::TubeChannelApprover(const Tp::TubeChannelPtr& channel, QObj
 {
     Q_UNUSED(parent);
 
-    kDebug() << "Incomming tube channel";
+    kDebug() << "Incoming tube channel";
     kDebug() << "\tTube Type:" << channel->channelType();
 
     connect(m_channel.data(), SIGNAL(invalidated(Tp::DBusProxy*,QString,QString)), SLOT(onChannelInvalidated()));
@@ -125,6 +125,8 @@ void TubeChannelApprover::showNotification(const QString& title, const QString& 
     m_notifierItem.data()->setToolTip(QLatin1String("document-save"),
                                i18n("Incoming %1 request from %2", title, sender->alias()),
                                QString());
+
+    m_notifierItem.data()->contextMenu()->clear(); //calling clear removes the pointless title
     m_notifierItem.data()->contextMenu()->addAction(i18n("Accept"), this, SIGNAL(channelAccepted()));
     m_notifierItem.data()->contextMenu()->addAction(i18n("Reject"), this, SIGNAL(channelRejected()));
     connect(this, SIGNAL(channelAccepted()), SLOT(onChannelAccepted()));
