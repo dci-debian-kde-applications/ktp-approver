@@ -34,7 +34,7 @@ FileTransferChannelApprover::FileTransferChannelApprover(
     kDebug();
 
     //notification
-    m_notification = new KNotification("incoming_file_transfer");
+    m_notification = new KNotification("incoming_file_transfer", 0, KNotification::Persistent);
     KAboutData aboutData("ktelepathy",0,KLocalizedString(),0);
     m_notification.data()->setComponentData(KComponentData(aboutData));
     m_notification.data()->setTitle(i18n("Incoming file transfer"));
@@ -68,6 +68,8 @@ FileTransferChannelApprover::FileTransferChannelApprover(
     m_notifierItem->setToolTip(QLatin1String("document-save"),
                                i18n("Incoming file transfer from %1", sender->alias()),
                                QString());
+
+    m_notifierItem->contextMenu()->clear(); //calling clear removes the pointless title
     m_notifierItem->contextMenu()->addAction(i18n("Accept"), this, SIGNAL(channelAccepted()));
     m_notifierItem->contextMenu()->addAction(i18n("Reject"), this, SIGNAL(channelRejected()));
     connect(m_notifierItem, SIGNAL(activateRequested(bool,QPoint)), SIGNAL(channelAccepted()));
@@ -80,6 +82,7 @@ FileTransferChannelApprover::~FileTransferChannelApprover()
     //destroy the notification
     if (m_notification) {
         m_notification.data()->close();
+        m_notification.data()->deleteLater();
     }
 
     //destroy the tray icon

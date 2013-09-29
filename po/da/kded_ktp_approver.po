@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-03-30 09:48+0100\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
+"PO-Revision-Date: 2013-04-20 19:44+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "Language: da\n"
@@ -39,12 +39,12 @@ msgstr ""
 "p><p><i>Filnavn:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "Acceptér"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "Afvis"
 
@@ -63,15 +63,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "Indkommende besked"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "Svar"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -79,28 +79,25 @@ msgstr[0] "Du har 1 indkommende samtale"
 msgstr[1] "Du har %1 indkommende samtaler"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
 msgstr "Ukendt indkommende forbindelse"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 vil starte en ekstern tjeneste med dig"
+msgstr "%1 vil starte en ukendt tjeneste med dig"
 
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "Indkommende %1-anmodning fra %2"
 
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Del %1 med %2"
 
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stop deling af %1"

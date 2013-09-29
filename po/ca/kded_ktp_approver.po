@@ -1,5 +1,5 @@
 # Translation of kded_ktp_approver.po to Catalan
-# Copyright (C) 2012 This_file_is_part_of_KDE
+# Copyright (C) 2012-2013 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-04-05 18:49+0200\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
+"PO-Revision-Date: 2013-04-19 17:00+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -42,12 +42,12 @@ msgstr ""
 "p><p><i>Nom del fitxer:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "Accepta"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "Rebutja"
 
@@ -66,15 +66,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "Missatge entrant"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "Respon"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -82,28 +82,25 @@ msgstr[0] "Teniu 1 conversa entrant"
 msgstr[1] "Teniu %1 converses entrants"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Flux de dades d'entrada desconegut"
+msgstr "Connexió d'entrada desconeguda"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 vol iniciar un servei remot amb vós"
+msgstr "%1 vol iniciar un servei desconegut amb vós"
 
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "Sol·licitud entrant %1 des de %2"
 
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 comparteix amb %2"
 
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Atura la compartició %1"

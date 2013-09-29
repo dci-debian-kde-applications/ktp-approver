@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 10:04+0200\n"
-"PO-Revision-Date: 2013-02-21 08:25+0800\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
+"PO-Revision-Date: 2013-04-22 12:47+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -39,12 +39,12 @@ msgstr ""
 "<p>%1 正在傳送檔案給您。您要接受此檔案傳輸嗎？</p> <p><i>檔名：</i>%2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "接受"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "拒絕"
 
@@ -63,43 +63,40 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "進來的訊息"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "回應"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
 msgstr[0] "您有 %1 個進來的對話"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "未知的進來的 Tube"
+msgstr "未知的進來的連線"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 打算與您啟動一個遠端服務"
+msgstr "%1 打算與您啟動一個未知的服務"
 
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "從 %2 來的 %1 要求"
 
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
 msgstr "與 %2 分享 %1"
 
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "停止分享 %1"

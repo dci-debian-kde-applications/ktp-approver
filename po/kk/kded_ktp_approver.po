@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
 "PO-Revision-Date: 2013-04-15 01:59+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -40,12 +40,12 @@ msgstr ""
 "<p>%1 Сізге файл жібермек. Қабылдайсыз ба?</p><p><i>Файл атауы:</i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "Қабылдау"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "Бас тарту"
 
@@ -64,15 +64,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "Хабарлама келді"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "Жауап"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -87,17 +87,17 @@ msgstr "Беймәлім кіріс байланысы"
 msgid "%1 wants to start an unknown service with you"
 msgstr "%1 Сізбен бір беймәлім қызметті бастауды қалайды"
 
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "%2 дегеннен %1 талап келді"
 
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%2 дегенмен %1 ортақ сеансы"
 
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "%1 ортақтасуын тоқтату"

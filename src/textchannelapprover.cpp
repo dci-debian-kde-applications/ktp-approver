@@ -23,6 +23,8 @@
 #include <KGlobal>
 #include <KDebug>
 #include <KAboutData>
+#include <KMenu>
+
 #include <TelepathyQt/ReceivedMessage>
 #include <TelepathyQt/AvatarData>
 #include <TelepathyQt/ContactManager>
@@ -48,6 +50,7 @@ TextChannelApprover::~TextChannelApprover()
     //destroy the notification
     if (m_notification) {
         m_notification.data()->close();
+        m_notification.data()->deleteLater();
     }
 }
 
@@ -58,7 +61,7 @@ void TextChannelApprover::onMessageReceived(const Tp::ReceivedMessage & msg)
     }
 
     if (!m_notification) {
-        m_notification = new KNotification("new_text_message");
+        m_notification = new KNotification("new_text_message", 0, KNotification::Persistent);
         KAboutData aboutData("ktelepathy",0,KLocalizedString(),0);
         m_notification.data()->setComponentData(KComponentData(aboutData));
 
@@ -78,6 +81,10 @@ void TextChannelApprover::onMessageReceived(const Tp::ReceivedMessage & msg)
         connect(m_notification.data(), SIGNAL(action1Activated()), SIGNAL(channelAccepted()));
     }
 
+    m_notifierItem.data()->contextMenu()->clear(); //calling clear removes the pointless title
+    m_notifierItem.data()->contextMenu()->addAction(i18n("Accept"), this, SIGNAL(channelAccepted()));
+    m_notifierItem.data()->contextMenu()->addAction(i18n("Close"), this, SIGNAL(channelRejected()));
+
     m_notification.data()->setText(msg.text().simplified());
     m_notification.data()->sendEvent();
 }
@@ -96,6 +103,7 @@ QSharedPointer<KStatusNotifierItem> TextChannelApprover::getNotifierItem()
         notifierItem->setAttentionIconByName(QLatin1String("mail-unread-new"));
         notifierItem->setStandardActionsEnabled(false);
         notifierItem->setProperty("approver_new_channels_count", 0U);
+
         *s_notifierItem = notifierItem;
     }
 

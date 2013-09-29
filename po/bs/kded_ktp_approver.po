@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 10:04+0200\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
 "PO-Revision-Date: 2012-12-19 19:15+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -42,12 +42,12 @@ msgstr ""
 "i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "Prihvati"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "Odbij"
 
@@ -66,15 +66,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "Dolazna poruka"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "Odgovor"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -83,28 +83,25 @@ msgstr[1] "Imate %1 dolazne poruke"
 msgstr[2] "Imate %1 dolaznih poruka"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Nepoznat ulazni Tube"
+msgstr "Nepoznata ulazna konekcija"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 želi započeti udaljenu uslugu s vama"
+msgstr "%1 želi započeti nepoznatu uslugu s vama"
 
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "Dolazi %1 zahtjev od %2"
 
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 dijeli s %2"
 
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zaustavi %1 dijeljenje"

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-10 10:02+0200\n"
-"PO-Revision-Date: 2013-02-09 22:46+0100\n"
+"POT-Creation-Date: 2013-07-15 05:14+0000\n"
+"PO-Revision-Date: 2013-04-18 13:30+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavian\n"
@@ -41,12 +41,12 @@ msgstr ""
 "i> %2</p>"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:127
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
 msgid "Accept"
 msgstr "Прихвати"
 
 #: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:111 tubechannelapprover.cpp:128
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
 msgid "Reject"
 msgstr "Одбиј"
 
@@ -65,15 +65,15 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "Георгиос Кјајадакис"
 
-#: textchannelapprover.cpp:74
+#: textchannelapprover.cpp:75
 msgid "Incoming message"
 msgstr "Долазна порука"
 
-#: textchannelapprover.cpp:77
+#: textchannelapprover.cpp:78
 msgid "Respond"
 msgstr "Одговори"
 
-#: textchannelapprover.cpp:112
+#: textchannelapprover.cpp:113
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -82,38 +82,29 @@ msgstr[1] "Имате %1 долазна разговора"
 msgstr[2] "Имате %1 долазних разговора"
 msgstr[3] "Имате долазни разговор"
 
-#: tubechannelapprover.cpp:59
-msgid "Unknown Incoming Tube"
-msgstr "Непозната долазна цев"
+#: tubechannelapprover.cpp:72
+msgid "Unknown Incoming Connection"
+msgstr "Непозната долазна веза"
 
-#: tubechannelapprover.cpp:59
+#: tubechannelapprover.cpp:73
 #, kde-format
-msgid "Incoming tube from %1 of an unknown type"
-msgstr "Долазна цев непознатог типа од %1"
-
-#: tubechannelapprover.cpp:75
-msgid "Incoming Request"
-msgstr "Долазни захтев"
-
-#: tubechannelapprover.cpp:75
-#, kde-format
-msgid "%1 wants to start a remote service with you"
-msgstr "%1 жели да започне удаљени сервис са вама"
+msgid "%1 wants to start an unknown service with you"
+msgstr "%1 жели да започне непознати сервис са вама"
 
 # >! What is %1?
-#: tubechannelapprover.cpp:125
+#: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Долазни %1 захтев од %2"
+msgstr "Долазни %1 захтјев од %2"
 
 # >! What is %1?
-#: tubechannelapprover.cpp:140
+#: tubechannelapprover.cpp:142
 #, kde-format
 msgid "%1 share with %2"
-msgstr "%1 дељење са %2"
+msgstr "%1 дијељење са %2"
 
 # >! What is %1?
-#: tubechannelapprover.cpp:143
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "Stop %1 Sharing"
-msgstr "Заустави %1 дељење"
+msgstr "Заустави %1 дијељење"
