@@ -3,4 +3,4 @@ usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.Approver.service
 usr/share/kde4/config/ktp_approverrc
 usr/share/kde4/services/kded/ktp_approver.desktop
 usr/share/locale/*
-usr/share/kde4/servicetypes/ktp-approver.service
+usr/share/kde4/servicetypes/ktp-approver.desktop

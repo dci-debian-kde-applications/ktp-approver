@@ -1,6 +1,7 @@
 ktp-approver (0.7.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * servicetypes/ktp-approver.service renamed to ktp-approver.desktop
 
  -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 20:46:03 -0700
 
