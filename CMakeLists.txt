@@ -1,6 +1,6 @@
 project(ktp-approver)
 
-set(KTP_APPROVER_VERSION "0.6.80")
+set(KTP_APPROVER_VERSION "0.7.0")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
 cmake_policy(SET CMP0002 OLD)
@@ -15,7 +15,7 @@ configure_file(version.h.in ${CMAKE_CURRENT_BINARY_DIR}/src/version.h @ONLY)
 
 add_subdirectory(src)
 
-install(FILES ktp-approver.service DESTINATION ${SERVICETYPES_INSTALL_DIR})
+install(FILES ktp-approver.desktop DESTINATION ${SERVICETYPES_INSTALL_DIR})
 find_package(Msgfmt REQUIRED)
 find_package(Gettext REQUIRED)
 add_subdirectory( po )

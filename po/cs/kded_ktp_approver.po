@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 05:14+0000\n"
-"PO-Revision-Date: 2013-04-16 08:25+0200\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-05-16 13:31+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -38,13 +38,14 @@ msgid ""
 msgstr ""
 "<p>%1 vám posílá soubor. Přijmete jej?</p><p><i>Název souboru:</i> %2</p>"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:73
+#: textchannelapprover.cpp:85 tubechannelapprover.cpp:112
+#: tubechannelapprover.cpp:130
 msgid "Accept"
 msgstr "Přijmout"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:74
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:131
 msgid "Reject"
 msgstr "Odmítnout"
 
@@ -63,15 +64,19 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:75
+#: textchannelapprover.cpp:77
 msgid "Incoming message"
 msgstr "Příchozí zpráva"
 
-#: textchannelapprover.cpp:78
+#: textchannelapprover.cpp:80
 msgid "Respond"
 msgstr "Odpovědět"
 
-#: textchannelapprover.cpp:113
+#: textchannelapprover.cpp:86
+msgid "Close"
+msgstr "Zavřít"
+
+#: textchannelapprover.cpp:120
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -93,12 +98,12 @@ msgstr "%1 s vámi chce začít neznámou službu"
 msgid "Incoming %1 request from %2"
 msgstr "Příchozí %1 požadavek od %2"
 
-#: tubechannelapprover.cpp:142
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 sdílení s %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zastavit %1 sdílení"
