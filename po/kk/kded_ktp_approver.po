@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 05:14+0000\n"
-"PO-Revision-Date: 2013-04-15 01:59+0600\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-09-25 03:56+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -39,13 +39,14 @@ msgid ""
 msgstr ""
 "<p>%1 Сізге файл жібермек. Қабылдайсыз ба?</p><p><i>Файл атауы:</i> %2</p>"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:73
+#: textchannelapprover.cpp:85 tubechannelapprover.cpp:112
+#: tubechannelapprover.cpp:130
 msgid "Accept"
 msgstr "Қабылдау"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:74
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:131
 msgid "Reject"
 msgstr "Бас тарту"
 
@@ -64,15 +65,19 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:75
+#: textchannelapprover.cpp:77
 msgid "Incoming message"
 msgstr "Хабарлама келді"
 
-#: textchannelapprover.cpp:78
+#: textchannelapprover.cpp:80
 msgid "Respond"
 msgstr "Жауап"
 
-#: textchannelapprover.cpp:113
+#: textchannelapprover.cpp:86
+msgid "Close"
+msgstr "Жабу"
+
+#: textchannelapprover.cpp:120
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -92,12 +97,12 @@ msgstr "%1 Сізбен бір беймәлім қызметті бастауд�
 msgid "Incoming %1 request from %2"
 msgstr "%2 дегеннен %1 талап келді"
 
-#: tubechannelapprover.cpp:142
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%2 дегенмен %1 ортақ сеансы"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "%1 ортақтасуын тоқтату"

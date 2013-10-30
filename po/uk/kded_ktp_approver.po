@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 05:14+0000\n"
-"PO-Revision-Date: 2013-04-14 16:20+0300\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-09-24 15:46+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -39,13 +39,14 @@ msgstr ""
 "<p>Отримано повідомлення щодо надсилання файла від %1. Ви згодні прийняти "
 "цей файл?</p><p><i>Назва файла:</i> %2</p>"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:73
+#: textchannelapprover.cpp:85 tubechannelapprover.cpp:112
+#: tubechannelapprover.cpp:130
 msgid "Accept"
 msgstr "Прийняти"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:74
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:131
 msgid "Reject"
 msgstr "Відмовити"
 
@@ -64,15 +65,19 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:75
+#: textchannelapprover.cpp:77
 msgid "Incoming message"
 msgstr "Вхідне повідомлення"
 
-#: textchannelapprover.cpp:78
+#: textchannelapprover.cpp:80
 msgid "Respond"
 msgstr "Відповісти"
 
-#: textchannelapprover.cpp:113
+#: textchannelapprover.cpp:86
+msgid "Close"
+msgstr "Закрити"
+
+#: textchannelapprover.cpp:120
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -95,12 +100,12 @@ msgstr "%1 бажає запустити невідому службу для к
 msgid "Incoming %1 request from %2"
 msgstr "Вхідний запит %1 від %2"
 
-#: tubechannelapprover.cpp:142
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Спільний сеанс %1 з %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Припинити спільний сеанс з %1"

@@ -1,15 +1,15 @@
 # Translation of kded_ktp_approver.po to Catalan
-# Copyright (C) 2012 This_file_is_part_of_KDE
+# Copyright (C) 2012-2013 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2012.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 05:14+0000\n"
-"PO-Revision-Date: 2012-09-24 18:52+0200\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-09-24 13:13+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -41,13 +41,14 @@ msgstr ""
 "<p>%1 vos està enviant un fitxer. Accepteu la transferència del fitxer?</"
 "p><p><i>Nom del fitxer:</i> %2</p>"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:71
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:128
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:73
+#: textchannelapprover.cpp:85 tubechannelapprover.cpp:112
+#: tubechannelapprover.cpp:130
 msgid "Accept"
 msgstr "Accepta"
 
-#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:72
-#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:129
+#: filetransferchannelapprover.cpp:54 filetransferchannelapprover.cpp:74
+#: tubechannelapprover.cpp:112 tubechannelapprover.cpp:131
 msgid "Reject"
 msgstr "Rebutja"
 
@@ -66,15 +67,19 @@ msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: textchannelapprover.cpp:75
+#: textchannelapprover.cpp:77
 msgid "Incoming message"
 msgstr "Missatge entrant"
 
-#: textchannelapprover.cpp:78
+#: textchannelapprover.cpp:80
 msgid "Respond"
 msgstr "Respon"
 
-#: textchannelapprover.cpp:113
+#: textchannelapprover.cpp:86
+msgid "Close"
+msgstr "Tanca"
+
+#: textchannelapprover.cpp:120
 #, kde-format
 msgid "You have 1 incoming conversation"
 msgid_plural "You have %1 incoming conversations"
@@ -83,34 +88,33 @@ msgstr[1] "Teniu %1 converses entrants"
 
 #: tubechannelapprover.cpp:72
 msgid "Unknown Incoming Connection"
-msgstr ""
+msgstr "Connexió d'entrada desconeguda"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "<p>%1 wants to start a %2 sharing session with you</p>"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "<p>%1 vol iniciar una sessió de compartició de %2 amb vós</p>"
+msgstr "%1 vol iniciar un servei desconegut amb vós"
 
 #: tubechannelapprover.cpp:126
-#, fuzzy, kde-format
-#| msgid "Incoming share request from %1"
+#, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Sol·licitud de compartició entrant des de %1"
+msgstr "Sol·licitud entrant %1 des de %2"
 
-#: tubechannelapprover.cpp:142
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 comparteix amb %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Para la compartició %1"
 
-#, fuzzy
-#~| msgid "Incoming share request"
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Flux de dades d'entrada des de %1 de tipus desconegut"
+
 #~ msgid "Incoming Request"
-#~ msgstr "Sol·licitud de compartició entrant"
+#~ msgstr "Sol·licitud entrant"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"
