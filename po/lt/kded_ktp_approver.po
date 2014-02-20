@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
 "PO-Revision-Date: 2013-04-11 20:21+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -105,12 +105,12 @@ msgstr "%1 nori pradėti nuotolinę paslaugą su Jumis"
 msgid "Incoming %1 request from %2"
 msgstr "Įeinanti %1 užklausa iš %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 dalintis su %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stabdyti %1 dalinimąsi"
@@ -120,10 +120,3 @@ msgstr "Stabdyti %1 dalinimąsi"
 
 #~ msgid "Incoming Request"
 #~ msgstr "Įeinanti užklausa"
-
-#~ msgctxt "Acronym for the secure shell service"
-#~ msgid "SSH"
-#~ msgstr "SSH"
-
-#~ msgid "Incoming %1 share request"
-#~ msgstr "Įeinanti %1 bendrinimo užklausa"

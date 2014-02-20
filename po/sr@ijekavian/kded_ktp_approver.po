@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-04-18 13:30+0200\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-05-21 14:22+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavian\n"
@@ -76,7 +76,7 @@ msgstr "Одговори"
 
 #: textchannelapprover.cpp:86
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: textchannelapprover.cpp:120
 #, kde-format
@@ -103,13 +103,13 @@ msgid "Incoming %1 request from %2"
 msgstr "Долазни %1 захтјев од %2"
 
 # >! What is %1?
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 дијељење са %2"
 
 # >! What is %1?
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Заустави %1 дијељење"

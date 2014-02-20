@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
 "PO-Revision-Date: 2013-05-16 10:45+0200\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -98,12 +98,12 @@ msgstr "%1 vuole avviare un servizio sconosciuto con te"
 msgid "Incoming %1 request from %2"
 msgstr "Richiesta %1 in arrivo da %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Condivisione %1 con %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Ferma la condivisione %1"

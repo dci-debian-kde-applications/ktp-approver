@@ -1,14 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012, 2013.
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-09-24 19:07+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-05-14 18:08+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Stefan Asserhäll"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@comhem.se"
+msgstr "stefan.asserhall@bredband.net"
 
 #: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
 msgid "Incoming file transfer"
@@ -97,12 +97,12 @@ msgstr "%1 vill starta en okänd tjänst hos dig"
 msgid "Incoming %1 request from %2"
 msgstr "Inkommande begäran om %1 från %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Dela %1 med %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stoppa delning av %1"

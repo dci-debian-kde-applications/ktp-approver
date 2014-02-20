@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-04-20 23:42+0200\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-04-27 19:40+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -97,12 +97,12 @@ msgstr "%1 θέλει να ξεκινήσει μια άγνωστη υπηρεσ
 msgid "Incoming %1 request from %2"
 msgstr "Εισερχόμενο %1 αίτημα διαμοιρασμού από %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 σε κοινή χρήση με %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Διακοπή %1 διαμοιρασμού"

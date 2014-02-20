@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-07-07 22:44+0200\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-07-08 03:52+0200\n"
 "Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -75,7 +75,7 @@ msgstr "Yanıtla"
 
 #: textchannelapprover.cpp:86
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: textchannelapprover.cpp:120
 #, kde-format
@@ -98,12 +98,12 @@ msgstr "%1 sizinle bilinmeyen bir hizmet başlatmak istiyor"
 msgid "Incoming %1 request from %2"
 msgstr "%2 kişisinden gelen %1 talebi"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%2 ile %1 paylaşımı"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "%1 Paylaşımını Durdur"

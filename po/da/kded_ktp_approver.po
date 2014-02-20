@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-10-05 13:56+0200\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-05-20 16:08+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "Language: da\n"
@@ -97,12 +97,12 @@ msgstr "%1 vil starte en ukendt tjeneste med dig"
 msgid "Incoming %1 request from %2"
 msgstr "Indkommende %1-anmodning fra %2"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Del %1 med %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Stop deling af %1"
