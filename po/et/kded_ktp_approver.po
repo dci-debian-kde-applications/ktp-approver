@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
 "PO-Revision-Date: 2012-07-02 19:52+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
@@ -89,25 +89,28 @@ msgstr ""
 
 #: tubechannelapprover.cpp:73
 #, fuzzy, kde-format
+#| msgid "<p>%1 wants to start a %2 sharing session with you</p>"
 msgid "%1 wants to start an unknown service with you"
 msgstr "<p>%1 soovib alustada sinuga %2 jagamisseanssi</p>"
 
 #: tubechannelapprover.cpp:126
 #, fuzzy, kde-format
+#| msgid "Incoming share request from %1"
 msgid "Incoming %1 request from %2"
 msgstr "Sisenev jagamissoov kasutajalt %1"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 jagamine kasutajaga %2"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Peata %1 jagamine"
 
 #, fuzzy
+#~| msgid "Incoming share request"
 #~ msgid "Incoming Request"
 #~ msgstr "Sisenev jagamissoov"
 

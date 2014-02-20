@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2013-10-03 15:03+0800\n"
+"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"PO-Revision-Date: 2013-06-14 10:59+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -24,7 +24,7 @@ msgstr "Frank Weng (a.k.a. Franklin)"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "franklin at goodhorse dot idv dot tw"
+msgstr "franklin@goodhorse.idv.tw"
 
 #: filetransferchannelapprover.cpp:40 filetransferchannelapprover.cpp:67
 msgid "Incoming file transfer"
@@ -96,12 +96,12 @@ msgstr "%1 打算與您啟動一個未知的服務"
 msgid "Incoming %1 request from %2"
 msgstr "從 %2 來的 %1 要求"
 
-#: tubechannelapprover.cpp:145
+#: tubechannelapprover.cpp:144
 #, kde-format
 msgid "%1 share with %2"
 msgstr "與 %2 分享 %1"
 
-#: tubechannelapprover.cpp:148
+#: tubechannelapprover.cpp:147
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "停止分享 %1"
