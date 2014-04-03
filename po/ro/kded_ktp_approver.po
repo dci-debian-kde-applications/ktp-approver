@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
 "PO-Revision-Date: 2013-05-25 09:46+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -74,7 +74,7 @@ msgstr "Răspunde"
 
 #: textchannelapprover.cpp:86
 msgid "Close"
-msgstr "Închide"
+msgstr ""
 
 #: textchannelapprover.cpp:120
 #, kde-format
@@ -98,12 +98,12 @@ msgstr "%1 vrea să pornească un serviciu necunoscut cu dumneavoastră"
 msgid "Incoming %1 request from %2"
 msgstr "Cerere de intrare %1 de la %2"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Partajare %1 cu %2"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Oprește partajarea %1"

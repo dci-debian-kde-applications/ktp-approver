@@ -1,13 +1,12 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2012, 2014.
-# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2013.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
 "PO-Revision-Date: 2014-02-03 15:30+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -88,7 +87,7 @@ msgstr[2] "Masz %1 przychodzących konwersacji"
 
 #: tubechannelapprover.cpp:72
 msgid "Unknown Incoming Connection"
-msgstr "Nieznane przychodzące połączenie"
+msgstr "Nieznana przychodząca rozmowa"
 
 #: tubechannelapprover.cpp:73
 #, kde-format
@@ -100,20 +99,21 @@ msgstr "%1 chce z tobą rozpocząć nieznaną usługę"
 msgid "Incoming %1 request from %2"
 msgstr "Przychodzące żądanie %1 od %2"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Współdziel %1 z %2"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Zatrzymaj współdzielenie %1"
 
-#, fuzzy
-#~| msgid "Incoming share request"
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "Przychodząca rozmowa wideo od %1 nieznanego typu"
+
 #~ msgid "Incoming Request"
-#~ msgstr "Przychodzące żądanie współdzielenia"
+#~ msgstr "Przychodzące żądanie"
 
 #~ msgctxt "Acronym for the secure shell service"
 #~ msgid "SSH"

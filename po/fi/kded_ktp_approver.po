@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
 "PO-Revision-Date: 2013-05-14 20:01+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
@@ -103,13 +103,13 @@ msgstr ""
 "Saapuva %1-pyyntö käyttäjältä %2|/|Saapuva $[yhdysmerkki %1 pyyntö] "
 "käyttäjältä %2"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr ""
 "%1-jako käyttäjän %2 kanssa|/|$[yhdysmerkki %1 jako] käyttäjän %2 kanssa"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Lopeta %1-jakaminen|/|Lopeta $[yhdysmerkki %1 jakaminen]"

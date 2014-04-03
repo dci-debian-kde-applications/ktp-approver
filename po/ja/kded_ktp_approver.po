@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-kde-approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
 "PO-Revision-Date: 2011-10-25 22:58-0700\n"
 "Last-Translator: Japanese KDE translation team <Kdeveloper@kde.gr.jp>\n"
 "Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
@@ -92,12 +92,12 @@ msgstr ""
 msgid "Incoming %1 request from %2"
 msgstr ""
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr ""
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr ""

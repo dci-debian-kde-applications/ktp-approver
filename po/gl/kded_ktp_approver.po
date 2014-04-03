@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
-"PO-Revision-Date: 2013-08-01 20:33+0200\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-11-05 22:45+0100\n"
 "Last-Translator: Marce Villarino <mvillarino@kde-espana.org>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -103,18 +103,17 @@ msgstr "%1 quer iniciar un servizo descoñecido con vostede"
 msgid "Incoming %1 request from %2"
 msgstr "Solicitude entrante de %1 procedente de %2"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 comparte con %2"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Deixar de compartir %1"
 
 #, fuzzy
-#~| msgid "Incoming share request"
 #~ msgid "Incoming Request"
 #~ msgstr "Solicitude de compartir entrante"
 

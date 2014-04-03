@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
 "PO-Revision-Date: 2013-09-25 03:56+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -84,28 +84,25 @@ msgid_plural "You have %1 incoming conversations"
 msgstr[0] "%1 келген әңгіме талабы"
 
 #: tubechannelapprover.cpp:72
-#, fuzzy
-#| msgid "Unknown Incoming Tube"
 msgid "Unknown Incoming Connection"
-msgstr "Беймәлім кіріс арнасы"
+msgstr "Беймәлім кіріс байланысы"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
-#| msgid "%1 wants to start a remote service with you"
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "%1 Сізбен бір қашық сеансты бастауды қалайды"
+msgstr "%1 Сізбен бір беймәлім қызметті бастауды қалайды"
 
 #: tubechannelapprover.cpp:126
 #, kde-format
 msgid "Incoming %1 request from %2"
 msgstr "%2 дегеннен %1 талап келді"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%2 дегенмен %1 ортақ сеансы"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "%1 ортақтасуын тоқтату"
