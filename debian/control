@@ -15,7 +15,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 
 Package: kde-telepathy-approver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.7)
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.8)
 Recommends: kde-telepathy
 Description: KDED module for approving incoming conversations
  This package provides a KDED module that starts together with the KDE
