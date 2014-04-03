@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_ktp_approver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
-"PO-Revision-Date: 2013-05-14 18:14-0300\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-09-25 08:58-0300\n"
 "Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
 "Language: pt_BR\n"
@@ -98,12 +98,18 @@ msgstr "%1 deseja iniciar um serviço desconhecido com você"
 msgid "Incoming %1 request from %2"
 msgstr "Solicitação de %2 recebida de %1"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "Compartilhamento de %1 com %2"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Parar o compartilhamento de %1"
+
+#~ msgid "Incoming tube from %1 of an unknown type"
+#~ msgstr "O canal de recepção de %1 é de um tipo desconhecido"
+
+#~ msgid "Incoming Request"
+#~ msgstr "Solicitação recebida"

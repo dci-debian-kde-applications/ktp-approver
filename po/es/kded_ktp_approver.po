@@ -2,15 +2,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Kira J. Fernández <kirajfdez@gmail.com>, 2011.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2012.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2012, 2013.
 # Raul Gonzalez <raulgf83@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:33+0000\n"
-"PO-Revision-Date: 2013-05-25 18:55+0200\n"
-"Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
+"POT-Creation-Date: 2013-10-14 05:32+0000\n"
+"PO-Revision-Date: 2013-10-01 16:45+0200\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -99,12 +99,12 @@ msgstr "%1 desea iniciar un servicio desconocido con usted"
 msgid "Incoming %1 request from %2"
 msgstr "Solicitud entrante %1 de %2"
 
-#: tubechannelapprover.cpp:144
+#: tubechannelapprover.cpp:145
 #, kde-format
 msgid "%1 share with %2"
 msgstr "%1 comparte con %2"
 
-#: tubechannelapprover.cpp:147
+#: tubechannelapprover.cpp:148
 #, kde-format
 msgid "Stop %1 Sharing"
 msgstr "Detener el intercambio de %1"
