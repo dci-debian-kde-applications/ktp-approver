@@ -1,10 +1,10 @@
-ktp-approver (0.7.80-1) UNRELEASED; urgency=medium
+ktp-approver (0.8.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Bump kde-telepathy-data dependency to >= 0.8
   * Update Standards-Version to 3.9.5. No changes needed.
 
- -- Diane Trout <diane@ghic.org>  Wed, 19 Feb 2014 20:37:58 -0800
+ -- Diane Trout <diane@ghic.org>  Sun, 27 Apr 2014 11:53:08 -0700
 
 ktp-approver (0.7.0-1) unstable; urgency=low
 
