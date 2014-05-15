@@ -3,6 +3,7 @@ ktp-approver (0.8.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump kde-telepathy-data dependency to >= 0.8.1
   * Update Standards-Version to 3.9.5. No changes needed.
+  * Update debian/copyright.
 
  -- Diane Trout <diane@ghic.org>  Sun, 27 Apr 2014 11:53:08 -0700
 
