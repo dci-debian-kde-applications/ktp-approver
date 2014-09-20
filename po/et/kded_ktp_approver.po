@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Marek Laane <bald@smail.ee>, 2012.
+# Marek Laane <bald@smail.ee>, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-10-14 05:32+0000\n"
-"PO-Revision-Date: 2012-07-02 19:52+0300\n"
+"PO-Revision-Date: 2014-06-13 13:56+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -74,7 +74,7 @@ msgstr "Vasta"
 
 #: textchannelapprover.cpp:86
 msgid "Close"
-msgstr ""
+msgstr "Sulge"
 
 #: textchannelapprover.cpp:120
 #, kde-format
@@ -85,17 +85,17 @@ msgstr[1] "Sul on %1 sisenevat vestlust"
 
 #: tubechannelapprover.cpp:72
 msgid "Unknown Incoming Connection"
-msgstr ""
+msgstr "Tundmatu sisenev ühendus"
 
 #: tubechannelapprover.cpp:73
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 wants to start an unknown service with you"
-msgstr "<p>%1 soovib alustada sinuga %2 jagamisseanssi</p>"
+msgstr "%1 soovib alustada sinuga tundmatut teenust"
 
 #: tubechannelapprover.cpp:126
-#, fuzzy, kde-format
+#, kde-format
 msgid "Incoming %1 request from %2"
-msgstr "Sisenev jagamissoov kasutajalt %1"
+msgstr "Sisenev %1 soov kasutajalt %2"
 
 #: tubechannelapprover.cpp:145
 #, kde-format
