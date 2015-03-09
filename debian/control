@@ -2,20 +2,33 @@ Source: ktp-approver
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
-Build-Depends: debhelper (>= 9),
- pkg-kde-tools (>= 0.9),
- libtelepathy-qt4-dev (>= 0.9.0),
- kdelibs5-dev (>= 4:4.6),
- cmake (>= 2.8)
+Uploaders: Diane Trout <diane@ghic.org>,
+           Michał Zając <quintasan@kubuntu.org>,
+           Mark Purcell <msp@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               gettext,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5i18n-dev,
+               libkf5notifications-dev,
+               libkf5service-dev,
+               libkf5windowsystem-dev,
+               libtelepathy-qt5-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-approver
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-approver.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-approver.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/ktp-approver.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/applications/ktp-approver.git
 
 Package: kde-telepathy-approver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.8.1)
+Depends: kde-telepathy-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: KDED module for approving incoming conversations
  This package provides a KDED module that starts together with the KDE
