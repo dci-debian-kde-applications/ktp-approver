@@ -2,6 +2,7 @@ ktp-approver (0.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Change kde-telepathy-data depends to source:Upstream-Version
+  * Update Standards-Version to 3.9.6. No changes needed.
 
  -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 15:41:34 -0700
 
