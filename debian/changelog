@@ -1,8 +1,9 @@
-ktp-approver (0.8.80-2~) UNRELEASED; urgency=medium
+ktp-approver (15.04.1-1~) UNRELEASED; urgency=medium
 
   * Update watch file.
+  * New upstream release (15.04.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 16:10:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 16:12:59 +0200
 
 ktp-approver (0.8.80-1) experimental; urgency=medium
 
