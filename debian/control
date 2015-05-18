@@ -2,12 +2,15 @@ Source: ktp-approver
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
-Build-Depends: debhelper (>= 9),
- pkg-kde-tools (>= 0.9),
- libtelepathy-qt4-dev (>= 0.9.0),
- kdelibs5-dev (>= 4:4.6),
- cmake (>= 2.8)
+Uploaders: Diane Trout <diane@ghic.org>,
+           Michał Zając <quintasan@kubuntu.org>,
+           Mark Purcell <msp@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               kdelibs5-dev (>= 4:4.6),
+               libtelepathy-qt4-dev (>= 0.9.0),
+               pkg-kde-tools (>= 0.9)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-approver
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-approver.git
@@ -15,7 +18,9 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 
 Package: kde-telepathy-approver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= ${source:Upstream-Version})
+Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: KDED module for approving incoming conversations
  This package provides a KDED module that starts together with the KDE
