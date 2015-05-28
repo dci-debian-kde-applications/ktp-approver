@@ -1,4 +1,4 @@
-ktp-approver (0.9.0-1) UNRELEASED; urgency=medium
+ktp-approver (0.9.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Change kde-telepathy-data depends to source:Upstream-Version
@@ -6,7 +6,7 @@ ktp-approver (0.9.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update debian/watch file to use http site.
 
- -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 15:41:34 -0700
+ -- Diane Trout <diane@ghic.org>  Sat, 25 Apr 2015 20:17:10 -0700
 
 ktp-approver (0.8.1-1) unstable; urgency=medium
 
