@@ -1,4 +1,4 @@
-ktp-approver (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
+ktp-approver (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Harald Sitter ]
   * KDE Frameworks 5 port
@@ -12,7 +12,7 @@ ktp-approver (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:00:30 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:27:41 +0200
 
 ktp-approver (0.9.0-0ubuntu1) vivid; urgency=medium
 
