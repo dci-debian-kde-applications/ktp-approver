@@ -3,6 +3,9 @@ ktp-approver (15.04.3-1) UNRELEASED; urgency=medium
   * Apply homepage update patch from Matthew Cope
   * Update watch file for KTps move to Applications
   * New upstream release.
+  * Update build dependencies to include:
+    - qtbase5-dev, extra-cmake-modules, libsignon-qt5-dev,
+      libtelepathy-qt5-dev, and several libkf5 libraries.
 
  -- Diane Trout <diane@ghic.org>  Wed, 27 May 2015 22:55:12 -0700
 
