@@ -12,6 +12,8 @@ ktp-approver (15.04.3-1) UNRELEASED; urgency=medium
     - Add LGPL-2+ block for src/ktp_approver_debug.*
     - remove po/* block.
   * Adjust paths in kde-telepathy-approver for KF5 locations.
+  * Use --fail-missing in rules to make it easier for me to find
+    whats missing.
 
  -- Diane Trout <diane@ghic.org>  Wed, 27 May 2015 22:55:12 -0700
 
