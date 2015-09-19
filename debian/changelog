@@ -19,6 +19,7 @@ ktp-approver (15.08.1-1) UNRELEASED; urgency=medium
     - Update debian/rules
     - Update plugins path to qt5/plugins.
   * Add KDE's unstable download url to watch file
+  * Update Diane Trout's email address
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 15:00:44 -0700
 
