@@ -40,12 +40,3 @@ Description: KDED module for approving incoming conversations
  .
  This package is not meant to be used standalone. It is recommended
  to install the kde-telepathy metapackage instead.
-
-Package: kde-telepathy-approver-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kde-telepathy-approver (= ${binary:Version}), ${misc:Depends}
-Description: KDED module for approving incoming conversations - debug symbols
- This package provides the debug symbols for the telepathy approver
- KDED module.
