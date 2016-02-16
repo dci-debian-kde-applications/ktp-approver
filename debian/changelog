@@ -1,6 +1,7 @@
-ktp-approver (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+ktp-approver (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * Merged with Debian
+    - Added epoch needed for Kubuntu
   * New upstream release 
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 16 Feb 2016 11:52:28 +0000
