@@ -8,40 +8,13 @@ Files: *
 Copyright: 2010-2011 Collabora Ltd. <http://www.collabora.co.uk>
 License: LGPL-2.1+
 
-Files: po/*
-Copyright: 2012 Mladen Pejakovic <pejakm@gmail.com>
-           2012 Chusslove Illich <caslav.ilic@gmx.net>
-           2011 Kevin Scannell <kscanne@gmail.com>
-           2012 Richard Frič <Richard.Fric@kdemail.net>
-           2012 Kristóf Kiszel <ulysses@kubuntu.org>
-           2011 André Marcelo Alvarenga <andrealvarenga@gmx.net>
-           2011 Pino Toscano <toscano.pino@tiscali.it>
-           2011 Yuri Chornoivan <yurchor@ukr.net>
-           2012 Josep Ma. Ferrer <txemaq@gmail.com>
-           2011 Frederik Schwarzer <schwarzer@kde.org>
-           2011 Manfred Wiese <m.j.wiese@web.de>
-           2012 Franklin Weng <franklin@mail.everfocus.com.tw>
-           2011-2013 Stefan Asserhall <stefan.asserhall@bredband.net>
-           2012 Freek de Kruijf <freekdekruijf@kde.nl>
-           2011 Kira J. Fernández <kirajfdez@gmail.com>
-           2012 Marek Laane <bald@smail.ee>
-           2012 Joëlle Cornavin <jcorn@free.fr>
-           2012 Weng Xuetian <wengxt@gmail.com>
-           2011-2012 Vít Pelčák <vit@pelcak.org>
-           2012 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
-           2012 Tommi Nieminen <translator@legisign.org>
-           2012 Stelios <sstavra@gmail.com>
-           2012 Burkhard Lück <lueck@hube-lueck.de>
-           2012 Ni Hui <shuizhuyuanluo@126.com>
-           2011 Martin Schlander <mschlander@opensuse.org>
-           2012 Xosé <xosecalvo@gmail.com>
-           2012-2014 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
-           2014 Dimitris Kardarakos <dimkard@gmail.com>
-           2014 Park Shinjo <peremen@gmail.com>
-License: LGPL-2.1+
+Files: src/ktp_approver_debug.*
+Copyright: 2014 Hrvoje Senjan <hrvoje.senjan@gmail.com>
+License: LGPL-2+
 
 Files: debian/*
 Copyright: 2011-2012 George Kiagiadakis <kiagiadakis.george@gmail.com>
+           2014-2015 Diane Trout <diane@ghic.org>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
@@ -58,6 +31,24 @@ License: LGPL-2.1+
    You should have received a copy of the GNU Lesser General Public
    License along with this library; if not, write to the Free Software
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+   .
+   On Debian systems, the complete text of the GNU Lesser General
+   Public License v2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2+
+   This library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Library General Public
+   License as published by the Free Software Foundation; either
+   version 2 of the License, or (at your option) any later version.
+   .
+   This library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Library General Public License for more details.
+   .
+   You should have received a copy of the GNU Library General Public
+   License along with this library; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
    .
    On Debian systems, the complete text of the GNU Lesser General
    Public License v2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
