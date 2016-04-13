@@ -1,3 +1,12 @@
+ktp-approver (15.12.3-1~1.gbpf1e316) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f1e3164de2a3fb6dd8192203ba630d21f8f54bc1 **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:41:33 +0200
+
 ktp-approver (15.08.3-1) unstable; urgency=medium
 
   * New upstream release.
