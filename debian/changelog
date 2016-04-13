@@ -1,11 +1,323 @@
-ktp-approver (15.12.3-1~1.gbpf1e316) UNRELEASED; urgency=medium
+ktp-approver (15.12.3-1~2.gbp91bfcb) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @91bfcb5fa168152c41a6292b8662bf199dab8a42 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @f1e3164de2a3fb6dd8192203ba630d21f8f54bc1 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
+  * upstream branch
+  * Badly merged
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:41:33 +0200
+  [ George Kiagiadakis ]
+  * Copy FindTelepathyQt4.cmake from telepathy-testlib.
+  * Initial implementation of the approver.
+  * Workaround the fact that contact factories in tp-qt4 don't work yet.
+  * Fix showing the notifications.
+  * Show only the contact's alias on the notification, as the previous message was too long.
+  * Make ApproverDaemon a proper QObject.
+  * Count the number of channels instead of the number of messages on the tooltip.
+  * Use only one notification and update the text in it, instead of spawning a new notification each time.
+  * Remove the contact upgrade hack, since tp-qt4 >= 0.5.3 implements contact factories.
+  * Move the plugin factory declaration in a separate header.
+  * Implement reading handler preferences from a config file.
+  * Provide a default config file that selects the kde chat handler as the most preferred one.
+  * Change the text-ui's d-bus service name on the preferences.
+  * Make the approver autoload on KDE startup instead of being an on-demand service.
+  * Fix the respond button to actually work.
+  * Remove trailing whitespaces.
+  * Enable all the channel class specs that we are going to support in the first release.
+  * Add support for approving incoming file transfer channels.
+  * Prefer the KDE file transfer handler.
+  * Add licenses.
+  * Add Messages.sh
+  * Fix the d-bus name of the file transfer handler in the default config file.
+  * Disable tp-qt debug output
+
+  [ Script Kiddy ]
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+
+  [ Alin Elena ]
+  * Change away from using kopete icon to the telepathy icon in the notifyrc file for the approver
+
+  [ David Edmundson ]
+  * Use shared ktelepathy notifyrc file
+  * Remove unused notifyrc file
+  * Add a basic approver for streamtubes.
+  * Approve SSH Stream tubes.
+  * bump version to 0.4.1
+  * Bump version to 0.5.2
+  * Fix compile warning
+  * Bump version to 0.5.3
+  * Bump version to 0.5.80
+  * update cmake policy
+  * Bump version to 0.6.0
+  * Add accept/reject actions to text channel approver
+  * Bump to 0.6.2
+  * Make the text channel notifications peristant and delete on close
+  * Use the persistent notifications on file and tube channels
+  * bump version to 0.6.3
+  * Bump Version to 0.6.80
+  * Bump version to 0.7.1
+  * Bump version to 0.8.1
+  * Bump version to 0.8.80
+
+  [ Daniele E. Domenichelli ]
+  * Rename DBus service
+  * Add .gitignore file
+  * Add D-Bus Service file for approver
+  * dbus-send by default sends a signal, not a method_call
+  * Fix Exec line in DBus service
+  * Find path of dbus-send
+  * Add file .reviewboardrc
+  * Revert wrong change to .desktop file happened during renaming
+  * Use KSharedConfig instead of KConfig
+
+  [ Martin Klapetek ]
+  * Unify i18n catalog names of all KDE-Telepathy components to use dashes
+  * Truncate long messages in the notification popup, so they don't fill up the whole screen with one plasma popup.
+  * Rename approver according to the new policy
+  * Fix renaming issues that were left off
+  * Fix the previous fix
+  * Bump version to 0.3
+  * Bump version to 0.4
+  * Bump version to 0.5
+  * Bump version to 0.5.1
+  * Don't show notifications for delivery reports
+  * Don't truncate the notification text
+  * Loose the word "tube" in notification; simplify logic
+  * Bump version to 0.6.1
+  * Bump version to 0.7.80
+  * Bump the version to 0.8.0
+  * Bump version to 0.9.80
+  * Bump the version to 15.03.95
+  * Bump version to 15.04.0
+  * Set versioning to be handled by the release script
+
+  [ Dario Freddi ]
+  * port-to-0.9: Remove deprecated Find file
+  * port-to-0.9: Rename relevant include paths and variables
+  * port-to-0.9: Bump tp-qt requirement
+  * Add missing KUIT context marker in the copyright statement
+
+  [ Christophe Giboudeaux ]
+  * Fix install.
+
+  [ Alin M Elena ]
+  * Simple ammend of KDE to KTp Reviewed by: George Kiagiadakis
+  * change tpkde to ktp in filenames and in factory Reviewed by: George Kiagiadakis <kiagiadakis.george@gmail.com>
+  * set version in CMakeLists.txt REVIEW: 109314
+
+  [ Matthias Klumpp ]
+  * Remove empty lines and line-breaks from KNotify chat messages
+
+  [ Dan Vrátil ]
+  * .desktop-based tubes channel approver
+  * Don't crash when unknown service channel is accepted
+  * Rename ktp-approver.service to ktp-approver.desktop
+  * Update CMakeLists.txt
+
+  [ l10n daemon script ]
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file) - always resolve ours
+  * SVN_SILENT made messages (.desktop file) - always resolve ours
+  * SVN_SILENT made messages (.desktop file)
+  * SVN_SILENT made messages (.desktop file) - always resolve ours
+
+  [ Diane Trout ]
+  * Fix typo in debug line
+
+  [ Sven Brauch ]
+  * Stop the tray icon from blinking when the channel is active.
+
+  [ Hrvoje Senjan ]
+  * Initial port of ktp-approver to Frameworks
+
+  [ Alexander Potashev ]
+  * Set translation domain
+
+  [ Maximiliano Curia ]
+  * Update watch file.
+  * Add myself as uploader
+  * Change to prerelease
+  * New upstream release (15.04.1).
+  * Update build-deps and deps with the info from cmake
+  * Automatic debian/control update with bump_qt5.py
+  * Unmerge debian and upstream branches
+  * New upstream release (15.04.2).
+  * Imported Upstream version 15.04.1
+  * Imported Upstream version 15.04.2
+  * Imported Upstream version 15.04.3
+  * New upstream release (15.08.0).
+  * Imported Upstream version 15.08.0
+  * Drop kde4 build deps.
+  * Update install files
+  * Imported Upstream version 15.08.1
+  * New upstream release (15.08.1).
+  * Imported Upstream version 15.08.2
+  * New upstream release (15.08.2).
+  * Imported Upstream version 15.08.3
+  * New upstream release (15.08.3).
+  * Imported Upstream version 15.12.0
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+  * Imported Upstream version 15.12.1
+  * Update build-deps and deps with the info from cmake
+  * Merge upstream release 15.12.1
+  * Automatic update with ddeb_migration.py
+  * Release to experimental
+  * Imported Upstream version 15.12.2
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add a basic gbp conf file
+  * Update vcs uris to point to the ones in applications
+
+  [ Albert Astals Cid ]
+  * GIT_SILENT Upgrade KDE Applications version to 15.11.80.
+  * GIT_SILENT Upgrade KDE Applications version to 15.11.90.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.0.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.1.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.2.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.3.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Wed, 13 Apr 2016 20:14:58 +0200
 
 ktp-approver (15.12.1-1) experimental; urgency=medium
 
