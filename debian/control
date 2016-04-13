@@ -24,8 +24,8 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-approver
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kde-telepathy/ktp-approver.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kde-telepathy/ktp-approver.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ktp-approver.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ktp-approver.git
 
 Package: kde-telepathy-approver
 Architecture: any
