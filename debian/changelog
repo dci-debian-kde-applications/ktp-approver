@@ -1,3 +1,11 @@
+ktp-approver (16.04.2-1~1.gbp62cbbd) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @62cbbd7ce222d2e5b6a7cd4a9c4c31f790dd7bfe **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 16:41:09 +0200
+
 ktp-approver (16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
