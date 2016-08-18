@@ -1,10 +1,11 @@
-ktp-approver (16.04.3-1~1.gbp3bb039) UNRELEASED; urgency=medium
+ktp-approver (16.08.0-1~1.gbp5e1abb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3bb039ab67dce800c2c7a91b0b0b9ef42f987f16 **
+  ** SNAPSHOT build @5e1abb8af756118b4ca638479bd0c55ae31ca32d **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:41:09 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:41:09 +0200
 
 ktp-approver (16.04.2-1) experimental; urgency=medium
 
