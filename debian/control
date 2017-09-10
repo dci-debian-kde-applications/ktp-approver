@@ -32,6 +32,8 @@ Architecture: any
 Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
          ${misc:Depends},
          ${shlibs:Depends},
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: kde-telepathy
 Description: KDED module for approving incoming conversations
  This package provides a KDED module that starts together with the KDE
