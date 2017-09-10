@@ -2,7 +2,7 @@ project(ktp-approver)
 include(FeatureSummary)
 
 # KDE Application Version, managed by release script
-set (KDE_APPLICATIONS_VERSION_MAJOR "16")
+set (KDE_APPLICATIONS_VERSION_MAJOR "17")
 set (KDE_APPLICATIONS_VERSION_MINOR "08")
 set (KDE_APPLICATIONS_VERSION_MICRO "1")
 
@@ -34,3 +34,4 @@ add_subdirectory(src)
 install(FILES ktp-approver.desktop DESTINATION ${SERVICETYPES_INSTALL_DIR})
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ki18n_install(po)
