@@ -1,12 +1,8 @@
-ktp-approver (16.08.1-1~1.gbpcd03b8) UNRELEASED; urgency=medium
+ktp-approver (17.08.1-1~) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cd03b89b5b8fcbd39eecccccfbd89e0475bbe24a **
+  * New upstream release (17.08.1).
 
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:41:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Sep 2017 18:57:37 +0200
 
 ktp-approver (16.04.2-1) experimental; urgency=medium
 
