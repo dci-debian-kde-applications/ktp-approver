@@ -1,8 +1,9 @@
-ktp-approver (17.08.1-1~) UNRELEASED; urgency=medium
+ktp-approver (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1).
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Sep 2017 18:57:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 19:59:02 +0200
 
 ktp-approver (16.04.2-1) experimental; urgency=medium
 
