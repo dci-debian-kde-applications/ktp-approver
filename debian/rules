@@ -8,5 +8,5 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kde-telepathy-approver-dbg (<= 15.12.1-1~~)'
 
-override_dh_configure:
+override_dh_auto_configure:
 	$(overriden_command) -- -DDBUS_SEND_PATH=/usr/bin/dbus-send

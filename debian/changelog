@@ -11,6 +11,7 @@ ktp-approver (17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump telepathy-related build dependencies:
     - libtelepathy-logger-qt-dev to >= 17.08
     - libtelepathy-qt5-dev to >= 0.9.7
+  * Fix override for dh_auto_configure, so it is actually used.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 13:12:42 +0100
 
